@@ -62,8 +62,8 @@ function App() {
       (!('schemeai_dark' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
   })
   
-  // Base API URL (uses environment variable on Vercel, falls back to localhost)
-  const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000'
+  // Base API URL (pointing to your live Render backend)
+  const API_BASE_URL = 'https://ibm-internship-oyrd.onrender.com'
 
   // Sync theme
   useEffect(() => {

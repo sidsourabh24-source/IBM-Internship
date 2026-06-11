@@ -1,0 +1,3610 @@
+[
+  {
+    "id": "pm_kisan",
+    "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "An initiative by the Government of India that provides income support to landholder farmer families to purchase agricultural inputs and domestic needs.",
+    "benefits": "₹6,000 per year in three equal installments of ₹2,000 directly transferred to bank accounts.",
+    "state": "Central",
+    "target_groups": [
+      "Farmer"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 100,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://pmkisan.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Land ownership documents (Khatauni)",
+      "Bank Account Details",
+      "Mobile Number"
+    ],
+    "tags": [
+      "Farmer",
+      "Subsidies",
+      "Income Support"
+    ]
+  },
+  {
+    "id": "pm_fasal_bima",
+    "scheme_name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "A crop insurance scheme that provides financial support to farmers suffering crop loss or damage due to natural calamities, pests, & diseases.",
+    "benefits": "Comprehensive insurance coverage against crop failure, with very low premium rates for farmers (1.5% to 5% depending on crop type).",
+    "state": "Central",
+    "target_groups": [
+      "Farmer"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 100,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://pmfby.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Land Records / Land Lease Agreement",
+      "Sowing Certificate",
+      "Bank Passbook"
+    ],
+    "tags": [
+      "Farmer",
+      "Insurance",
+      "Financial Safety Net"
+    ]
+  },
+  {
+    "id": "pm_krishi_sinchayee",
+    "scheme_name": "Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) - Per Drop More Crop",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Focuses on improving water use efficiency at the farm level through micro-irrigation technologies like drip and sprinkler systems.",
+    "benefits": "Up to 55% subsidy for small and marginal farmers, and 45% for other farmers for installing micro-irrigation systems.",
+    "state": "Central",
+    "target_groups": [
+      "Farmer"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 80,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://pmksy.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Land Ownership Proof",
+      "Electricity Bill / Pump Connection Details",
+      "Bank Details"
+    ],
+    "tags": [
+      "Farmer",
+      "Irrigation",
+      "Subsidy"
+    ]
+  },
+  {
+    "id": "pm_kisan_maandhan",
+    "scheme_name": "Pradhan Mantri Kisan Maan-Dhan Yojana (PM-KMY)",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "A voluntary and contributory pension scheme for small and marginal farmers to secure their life post-retirement.",
+    "benefits": "A assured monthly pension of ₹3,000 after attaining the age of 60 years.",
+    "state": "Central",
+    "target_groups": [
+      "Farmer",
+      "Senior Citizen"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 40,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://pmkmy.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Savings Bank Account Details",
+      "KCC (Kisan Credit Card) or land document"
+    ],
+    "tags": [
+      "Farmer",
+      "Pension",
+      "Senior Citizens"
+    ]
+  },
+  {
+    "id": "soil_health_card",
+    "scheme_name": "Soil Health Card Scheme",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Promotes soil test-based nutrient management. Gives farmers recommendations on dosage of nutrients and soil health improvement.",
+    "benefits": "Free soil test and dynamic advice printed on a card describing nutrition level and recommended crop management steps.",
+    "state": "Central",
+    "target_groups": [
+      "Farmer"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 100,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://soilhealth.dac.gov.in/",
+    "required_documents": [
+      "Land Ownership Proof",
+      "Aadhaar Card",
+      "Soil sample from farm"
+    ],
+    "tags": [
+      "Farmer",
+      "Soil Health",
+      "Agriculture Advisor"
+    ]
+  },
+  {
+    "id": "sub_mission_agri_mech",
+    "scheme_name": "Sub-Mission on Agricultural Mechanization (SMAM)",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Assists farmers in purchasing high-end agricultural machinery and modern equipment through farm hubs.",
+    "benefits": "40% to 50% financial assistance/subsidy for purchasing tractors, power tillers, rotavators, and harvesters.",
+    "state": "Central",
+    "target_groups": [
+      "Farmer"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 80,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://agrimachinery.nic.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Land Holding Certificate",
+      "Bank Details",
+      "Quotation of equipment from dealer"
+    ],
+    "tags": [
+      "Farmer",
+      "Machinery",
+      "Subsidy"
+    ]
+  },
+  {
+    "id": "kisan_credit_card",
+    "scheme_name": "Kisan Credit Card (KCC) Scheme",
+    "ministry": "Ministry of Agriculture and Farmers Welfare / RBI",
+    "description": "Provides farmers with timely credit for their cultivation needs, purchase of seeds, fertilizers, and pesticide requirements.",
+    "benefits": "Low-interest loans up to ₹3 Lakh at 4% effective interest rate (with timely repayment subsidy). No collateral required for loans up to ₹1.6 Lakh.",
+    "state": "Central",
+    "target_groups": [
+      "Farmer"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 75,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.sbi.co.in/web/personal-banking/loans/agriculture-loans/kisan-credit-card",
+    "required_documents": [
+      "Aadhaar Card",
+      "Land cultivation documents",
+      "Bank Account Statement",
+      "Passport size photograph"
+    ],
+    "tags": [
+      "Farmer",
+      "Credit",
+      "Loan"
+    ]
+  },
+  {
+    "id": "pm_kusum",
+    "scheme_name": "Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan (PM-KUSUM)",
+    "ministry": "Ministry of New and Renewable Energy",
+    "description": "Supports installation of solar pumps, grid connected solar power plants, and solarization of existing grid pumps.",
+    "benefits": "Up to 60% subsidy for setting up standalone solar pumps (State + Central share) and additional 30% bank loan options.",
+    "state": "Central",
+    "target_groups": [
+      "Farmer"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 75,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://mnre.gov.in/pm-kusum-scheme",
+    "required_documents": [
+      "Aadhaar Card",
+      "Land Records (Khatauni)",
+      "Declaration of availability of water source",
+      "Bank Details"
+    ],
+    "tags": [
+      "Farmer",
+      "Solar",
+      "Energy"
+    ]
+  },
+  {
+    "id": "pm_formalisation_food_processing",
+    "scheme_name": "PM Formalisation of Micro Food Processing Enterprises (PMFME)",
+    "ministry": "Ministry of Food Processing Industries",
+    "description": "Provides financial, technical, and business support for the upgrade and formalization of existing micro-food processing enterprises.",
+    "benefits": "Credit-linked capital subsidy of 35% of the eligible project cost with a maximum ceiling of ₹10 Lakh per unit.",
+    "state": "Central",
+    "target_groups": [
+      "Farmer",
+      "Startup",
+      "Women"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 65,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "8th",
+      "10th",
+      "12th",
+      "Graduate",
+      "Undergraduate",
+      "Postgraduate",
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://pmfme.mofpi.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Pan Card",
+      "Project Report",
+      "Enterprise Registration Certificate",
+      "Bank Statement"
+    ],
+    "tags": [
+      "Farmer",
+      "Food Processing",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "agriculture_infrastructure_fund",
+    "scheme_name": "Agriculture Infrastructure Fund (AIF)",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "A medium-long term debt financing facility for investment in viable projects for post-harvest management infrastructure and community farming assets.",
+    "benefits": "3% interest subvention per annum on loans up to ₹2 Crore for a maximum period of 7 years, along with credit guarantee coverage.",
+    "state": "Central",
+    "target_groups": [
+      "Farmer",
+      "Startup"
+    ],
+    "income_limit": null,
+    "age_min": 21,
+    "age_max": 70,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://agriinfra.dac.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Detailed Project Report (DPR)",
+      "Land details/lease agreement",
+      "Financial Statements"
+    ],
+    "tags": [
+      "Farmer",
+      "Infrastructure",
+      "Investment"
+    ]
+  },
+  {
+    "id": "paramparagat_krishi_vikas",
+    "scheme_name": "Paramparagat Krishi Vikas Yojana (PKVY)",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Promotes organic farming through a cluster-based approach and PGS (Participatory Guarantee System) certification.",
+    "benefits": "Financial assistance of ₹50,000 per hectare for 3 years, out of which ₹31,000 is given directly to the farmer for organic inputs.",
+    "state": "Central",
+    "target_groups": [
+      "Farmer"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 85,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://dgapg.gov.in/pkvy",
+    "required_documents": [
+      "Aadhaar Card",
+      "Land Record Documents",
+      "Cluster Membership Form",
+      "Bank Details"
+    ],
+    "tags": [
+      "Farmer",
+      "Organic Farming",
+      "Subsidy"
+    ]
+  },
+  {
+    "id": "rashtriya_krishi_vikas",
+    "scheme_name": "Rashtriya Krishi Vikas Yojana (RKVY)",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Allows states to choose their own agriculture development activities based on local requirements, promoting holistic farming.",
+    "benefits": "Grants and subsidies for setting up polyhouses, cold storages, mushroom farming units, and organic composting sites.",
+    "state": "Central",
+    "target_groups": [
+      "Farmer"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 90,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://rkvy.nic.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Land ownership proof",
+      "Project Proposal",
+      "Bank Passbook"
+    ],
+    "tags": [
+      "Farmer",
+      "Agriculture",
+      "Grants"
+    ]
+  },
+  {
+    "id": "national_beekeeping_honey",
+    "scheme_name": "National Beekeeping & Honey Mission (NBHM)",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Promotes scientific beekeeping for the 'Sweet Revolution' to increase farmer income and crop pollination.",
+    "benefits": "Subsidy of up to 50% of cost for bee hives, colonies, bee boxes, extraction equipment, and training.",
+    "state": "Central",
+    "target_groups": [
+      "Farmer",
+      "Women",
+      "Job Seeker"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 65,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://nbhm.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Beekeeping Training Certificate (if any)",
+      "Bank Account Details",
+      "Land Details"
+    ],
+    "tags": [
+      "Farmer",
+      "Beekeeping",
+      "Sweet Revolution"
+    ]
+  },
+  {
+    "id": "agri_clinics_agri_business",
+    "scheme_name": "Agri-Clinics and Agri-Business Centres (ACABC) Scheme",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Supports agriculture graduates in setting up private clinics and centers to provide advisory services to farmers.",
+    "benefits": "36% subsidy on capital cost of project (44% for women, SC/ST, and North East region) with loans up to ₹20 Lakh (individual) and ₹100 Lakh (group).",
+    "state": "Central",
+    "target_groups": [
+      "Farmer",
+      "Graduate",
+      "Startup"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 60,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Graduate",
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.agriclinics.net/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Degree/Diploma in Agriculture or allied sciences",
+      "Project Report",
+      "Pan Card"
+    ],
+    "tags": [
+      "Farmer",
+      "Advisory",
+      "Business"
+    ]
+  },
+  {
+    "id": "mp_mukhyamantri_kisan_kalyan",
+    "scheme_name": "Mukhyamantri Kisan Kalyan Yojana (Madhya Pradesh)",
+    "ministry": "Department of Revenue, Government of Madhya Pradesh",
+    "description": "State-level scheme to supplement the PM-KISAN scheme, providing extra financial support to farmers in Madhya Pradesh.",
+    "benefits": "Additional ₹4,000 per year paid in two equal installments of ₹2,000 to PM-KISAN beneficiaries in MP.",
+    "state": "Madhya Pradesh",
+    "target_groups": [
+      "Farmer"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 100,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://saara.mp.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "PM-KISAN registration details",
+      "Land Records (B1 Khasra)",
+      "MP Samagra ID"
+    ],
+    "tags": [
+      "Farmer",
+      "Madhya Pradesh",
+      "Income Support"
+    ]
+  },
+  {
+    "id": "pm_yasasvi",
+    "scheme_name": "PM Young Achievers Scholarship Award Scheme for Vibrant India (PM YASASVI)",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "description": "A scholarship program designed for OBC, EBC, and DNT students studying in Top Class Schools.",
+    "benefits": "School fee, hostel fee, and books reimbursement up to ₹75,000/year (class 9-10) and ₹1,25,000/year (class 11-12).",
+    "state": "Central",
+    "target_groups": [
+      "Student"
+    ],
+    "income_limit": 250000,
+    "age_min": 13,
+    "age_max": 19,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "10th",
+      "Any"
+    ],
+    "category_restriction": [
+      "OBC",
+      "ST",
+      "SC"
+    ],
+    "application_link": "https://yet.nta.ac.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Caste Certificate",
+      "Previous Class Marksheet",
+      "School Fee Receipt"
+    ],
+    "tags": [
+      "Student",
+      "Scholarship",
+      "High School"
+    ]
+  },
+  {
+    "id": "post_matric_scholarship_sc",
+    "scheme_name": "Post Matric Scholarship for SC Students",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "description": "Financial assistance to Scheduled Caste students for pursuing post-matriculation or post-secondary courses.",
+    "benefits": "100% tuition fee coverage, academic allowance up to ₹13,500 per year, and support for disabled students.",
+    "state": "Central",
+    "target_groups": [
+      "Student"
+    ],
+    "income_limit": 250000,
+    "age_min": 15,
+    "age_max": 35,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "12th",
+      "Graduate",
+      "Undergraduate",
+      "Postgraduate",
+      "Any"
+    ],
+    "category_restriction": [
+      "SC"
+    ],
+    "application_link": "https://scholarships.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Caste Certificate",
+      "Marksheet of qualifying exam",
+      "Fee Structure"
+    ],
+    "tags": [
+      "Student",
+      "Scholarship",
+      "Higher Education"
+    ]
+  },
+  {
+    "id": "post_matric_scholarship_st",
+    "scheme_name": "Post Matric Scholarship for ST Students",
+    "ministry": "Ministry of Tribal Affairs",
+    "description": "Financial assistance to Scheduled Tribe students for pursuing post-matriculation or post-secondary courses.",
+    "benefits": "Compulsory non-refundable fees reimbursement and maintenance allowance up to ₹1,200 per month.",
+    "state": "Central",
+    "target_groups": [
+      "Student"
+    ],
+    "income_limit": 250000,
+    "age_min": 15,
+    "age_max": 35,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "12th",
+      "Graduate",
+      "Undergraduate",
+      "Postgraduate",
+      "Any"
+    ],
+    "category_restriction": [
+      "ST"
+    ],
+    "application_link": "https://scholarships.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "ST Caste Certificate",
+      "Marksheet of qualifying exam",
+      "Bank Details"
+    ],
+    "tags": [
+      "Student",
+      "Scholarship",
+      "Higher Education"
+    ]
+  },
+  {
+    "id": "central_sector_scholarship",
+    "scheme_name": "Central Sector Scheme of Scholarship for College and University Students",
+    "ministry": "Ministry of Education",
+    "description": "Provides financial assistance to meritorious students from low-income families to meet a part of their day-to-day expenses while pursuing higher studies.",
+    "benefits": "₹12,000 per year for Graduation (first 3 years) and ₹20,000 per year for Post-Graduation.",
+    "state": "Central",
+    "target_groups": [
+      "Student"
+    ],
+    "income_limit": 450000,
+    "age_min": 17,
+    "age_max": 25,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Graduate",
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://scholarships.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "12th standard marksheet (must be above 80th percentile)",
+      "College ID"
+    ],
+    "tags": [
+      "Student",
+      "Scholarship",
+      "Merit-cum-Means"
+    ]
+  },
+  {
+    "id": "aicte_pragati_girls",
+    "scheme_name": "AICTE Pragati Scholarship for Girl Students",
+    "ministry": "All India Council for Technical Education (AICTE)",
+    "description": "Empowers girls by providing financial assistance to pursue technical education (Degree or Diploma courses).",
+    "benefits": "₹50,000 per year for a maximum of 4 years for Degree and 3 years for Diploma students as tuition/equipment fee.",
+    "state": "Central",
+    "target_groups": [
+      "Student",
+      "Women"
+    ],
+    "income_limit": 800000,
+    "age_min": 16,
+    "age_max": 30,
+    "gender_restriction": "Female",
+    "education_restriction": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.aicte-india.org/schemes/students-development-schemes/pragati",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "10th/12th Marksheet",
+      "Admission Letter to technical college",
+      "Tuition Fee Receipt"
+    ],
+    "tags": [
+      "Student",
+      "Women",
+      "Technical Education"
+    ]
+  },
+  {
+    "id": "aicte_saksham_disabled",
+    "scheme_name": "AICTE Saksham Scholarship Scheme for Specially Abled Students",
+    "ministry": "All India Council for Technical Education (AICTE)",
+    "description": "Supports specially-abled students who wish to pursue technical education degree or diploma.",
+    "benefits": "₹50,000 per annum for tuition fee and equipment/books support for the entire duration of technical courses.",
+    "state": "Central",
+    "target_groups": [
+      "Student"
+    ],
+    "income_limit": 800000,
+    "age_min": 16,
+    "age_max": 40,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.aicte-india.org/schemes/students-development-schemes/saksham",
+    "required_documents": [
+      "Aadhaar Card",
+      "Disability Certificate (min 40% disability)",
+      "Income Certificate",
+      "Technical Course Admission Proof"
+    ],
+    "tags": [
+      "Student",
+      "Disability",
+      "Technical Education"
+    ]
+  },
+  {
+    "id": "pm_research_fellowship",
+    "scheme_name": "Prime Minister's Research Fellowship (PMRF)",
+    "ministry": "Ministry of Education",
+    "description": "Designed for improving the quality of research in various higher educational institutions in the country (IITs, IISc, IISERs, NITs, Central Universities).",
+    "benefits": "Fellowship of ₹70,000 to ₹80,000 per month and a research grant of ₹2 Lakh per year for 5 years.",
+    "state": "Central",
+    "target_groups": [
+      "Student"
+    ],
+    "income_limit": null,
+    "age_min": 21,
+    "age_max": 35,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Postgraduate",
+      "Graduate"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://pmrf.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Degree Marksheets/Transcripts",
+      "Detailed PhD Proposal / Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "tags": [
+      "Student",
+      "Research",
+      "PhD"
+    ]
+  },
+  {
+    "id": "national_means_merit",
+    "scheme_name": "National Means-cum-Merit Scholarship Scheme (NMMSS)",
+    "ministry": "Ministry of Education",
+    "description": "Aims to award scholarships to meritorious students of economically weaker sections to arrest their drop-out at class VIII.",
+    "benefits": "₹12,000 per year (₹1,000 per month) from class IX to class XII.",
+    "state": "Central",
+    "target_groups": [
+      "Student",
+      "Low Income Family"
+    ],
+    "income_limit": 350000,
+    "age_min": 12,
+    "age_max": 16,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "10th",
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://scholarships.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Class VIII marksheet (minimum 55% marks)",
+      "Caste Certificate (if any)"
+    ],
+    "tags": [
+      "Student",
+      "Scholarship",
+      "School"
+    ]
+  },
+  {
+    "id": "single_girl_child_pg",
+    "scheme_name": "Post Graduate Indira Gandhi Scholarship for Single Girl Child",
+    "ministry": "University Grants Commission (UGC)",
+    "description": "Supports post-graduate education of single girl children in non-professional courses.",
+    "benefits": "₹36,200 per year for a period of 2 years (duration of PG course) paid directly.",
+    "state": "Central",
+    "target_groups": [
+      "Student",
+      "Women"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 30,
+    "gender_restriction": "Female",
+    "education_restriction": [
+      "Postgraduate"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://scholarships.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Single Girl Child Affidavit on ₹50 Stamp Paper",
+      "College Admission Proof",
+      "PG Course Fee Receipt"
+    ],
+    "tags": [
+      "Student",
+      "Women",
+      "Post Graduate"
+    ]
+  },
+  {
+    "id": "national_overseas_sc_st",
+    "scheme_name": "National Overseas Scholarship for SC/ST Candidates",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "description": "Facilitates low-income SC/ST candidates to obtain Master's degree or Ph.D. courses abroad.",
+    "benefits": "Full tuition fee coverage, maintenance allowance of $15,400 per year, travel expenses, and health insurance.",
+    "state": "Central",
+    "target_groups": [
+      "Student"
+    ],
+    "income_limit": 800000,
+    "age_min": 21,
+    "age_max": 35,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Graduate",
+      "Postgraduate"
+    ],
+    "category_restriction": [
+      "SC",
+      "ST"
+    ],
+    "application_link": "https://nosmsje.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Caste Certificate",
+      "Offer letter from QS Top 500 Foreign University",
+      "Marksheet"
+    ],
+    "tags": [
+      "Student",
+      "Foreign Study",
+      "Scholarship"
+    ]
+  },
+  {
+    "id": "aicte_swanath",
+    "scheme_name": "AICTE Swanath Scholarship Scheme",
+    "ministry": "All India Council for Technical Education (AICTE)",
+    "description": "Assistance to orphans, wards of parents died due to Covid-19, and wards of Armed Forces/Paramilitary killed in action to pursue technical study.",
+    "benefits": "₹50,000 per annum as a lump sum amount for tuition fees, purchase of books, equipment, etc.",
+    "state": "Central",
+    "target_groups": [
+      "Student",
+      "Low Income Family"
+    ],
+    "income_limit": 800000,
+    "age_min": 16,
+    "age_max": 30,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.aicte-india.org/schemes/students-development-schemes/swanath-scholarship-scheme",
+    "required_documents": [
+      "Aadhaar Card",
+      "Death Certificate of parents (Covid-19 / Martyr proof / Orphan Certificate)",
+      "Income Certificate"
+    ],
+    "tags": [
+      "Student",
+      "Orphan Support",
+      "Technical"
+    ]
+  },
+  {
+    "id": "inspire_she",
+    "scheme_name": "INSPIRE Scholarship for Higher Education (SHE)",
+    "ministry": "Ministry of Science and Technology",
+    "description": "Attracts meritorious youth to study natural and basic sciences at BSc, BS, MSc levels.",
+    "benefits": "₹80,000 per year (₹60,000 scholarship + ₹20,000 mentorship/project cost) for natural science students.",
+    "state": "Central",
+    "target_groups": [
+      "Student"
+    ],
+    "income_limit": null,
+    "age_min": 17,
+    "age_max": 22,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://online-inspire.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "INSPIRE Advisory Note (from board showing top 1% rank in 12th)",
+      "College Admission Certificate",
+      "Bank Details"
+    ],
+    "tags": [
+      "Student",
+      "Science",
+      "Scholarship"
+    ]
+  },
+  {
+    "id": "ramanujan_fellowship",
+    "scheme_name": "Ramanujan Fellowship",
+    "ministry": "Science and Engineering Research Board (SERB)",
+    "description": "For brilliant Indian scientists and engineers from all over the world to take up scientific research in India.",
+    "benefits": "Fellowship of ₹1,35,000 per month and a research grant of ₹7 Lakh per annum for 5 years.",
+    "state": "Central",
+    "target_groups": [
+      "Student"
+    ],
+    "income_limit": null,
+    "age_min": 25,
+    "age_max": 40,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Postgraduate"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.serbonline.in/",
+    "required_documents": [
+      "PhD Degree Certificate",
+      "Curriculum Vitae (CV) with list of publications",
+      "Research Project Proposal",
+      "Endorsement Letter"
+    ],
+    "tags": [
+      "Student",
+      "Research",
+      "Science"
+    ]
+  },
+  {
+    "id": "maulana_azad_fellowship",
+    "scheme_name": "Maulana Azad National Fellowship (MANF)",
+    "ministry": "Ministry of Minority Affairs",
+    "description": "Provides financial assistance to minority students pursuing M.Phil and Ph.D. degrees in Indian Universities.",
+    "benefits": "Fellowship equivalent to JRF/SRF (₹31,000 - ₹35,000 per month) along with contingency grants for research.",
+    "state": "Central",
+    "target_groups": [
+      "Student"
+    ],
+    "income_limit": 600000,
+    "age_min": 21,
+    "age_max": 35,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Postgraduate"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://scholarships.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Minority Community Certificate",
+      "Income Certificate",
+      "Postgraduate Marksheet (Min 55%)",
+      "University Registration Letter"
+    ],
+    "tags": [
+      "Student",
+      "Minority",
+      "PhD"
+    ]
+  },
+  {
+    "id": "padho_pardesh",
+    "scheme_name": "Padho Pardesh Scheme",
+    "ministry": "Ministry of Minority Affairs",
+    "description": "Interest subsidy on educational loans for overseas studies for minority community students.",
+    "benefits": "100% interest subsidy during the moratorium period (course period + 1 year) on educational loans for overseas Master's/Ph.D.",
+    "state": "Central",
+    "target_groups": [
+      "Student"
+    ],
+    "income_limit": 600000,
+    "age_min": 18,
+    "age_max": 35,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Graduate",
+      "Postgraduate"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.minorityaffairs.gov.in/schemes/padho-pardesh",
+    "required_documents": [
+      "Aadhaar Card",
+      "Minority Certificate",
+      "Income Certificate",
+      "Education Loan Sanction Letter from Bank",
+      "Foreign Admission Proof"
+    ],
+    "tags": [
+      "Student",
+      "Minority",
+      "Loan Subsidy"
+    ]
+  },
+  {
+    "id": "mp_gaura_devi_kanya",
+    "scheme_name": "Gaon Ki Beti Yojana (Madhya Pradesh)",
+    "ministry": "Department of Higher Education, Madhya Pradesh",
+    "description": "Financial aid for girl students residing in rural areas of Madhya Pradesh who achieve high marks in class XII.",
+    "benefits": "Scholarship of ₹5,000 per academic year (₹500 per month for 10 months) for pursuing higher education degree.",
+    "state": "Madhya Pradesh",
+    "target_groups": [
+      "Student",
+      "Women"
+    ],
+    "income_limit": null,
+    "age_min": 17,
+    "age_max": 25,
+    "gender_restriction": "Female",
+    "education_restriction": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://scholarshipportal.mp.nic.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Class XII Marksheet (min 60% marks)",
+      "Rural Residence Certificate",
+      "MP Samagra ID",
+      "College ID"
+    ],
+    "tags": [
+      "Student",
+      "Women",
+      "Madhya Pradesh"
+    ]
+  },
+  {
+    "id": "mp_pratibha_kiran",
+    "scheme_name": "Pratibha Kiran Scholarship Yojana (Madhya Pradesh)",
+    "ministry": "Department of Higher Education, Madhya Pradesh",
+    "description": "Provides financial support to meritorious girl students living in urban BPL families in Madhya Pradesh to pursue higher education.",
+    "benefits": "Scholarship of ₹4,000 per academic year for Degree courses and ₹3,000 for technical courses.",
+    "state": "Madhya Pradesh",
+    "target_groups": [
+      "Student",
+      "Women",
+      "Low Income Family"
+    ],
+    "income_limit": 100000,
+    "age_min": 17,
+    "age_max": 25,
+    "gender_restriction": "Female",
+    "education_restriction": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://scholarshipportal.mp.nic.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "BPL Card",
+      "12th standard marksheet (min 60%)",
+      "MP Resident Certificate",
+      "College Admission Receipt"
+    ],
+    "tags": [
+      "Student",
+      "Women",
+      "BPL",
+      "Madhya Pradesh"
+    ]
+  },
+  {
+    "id": "mp_post_matric_obc",
+    "scheme_name": "Post Matric Scholarship for OBC Students (Madhya Pradesh)",
+    "ministry": "Backward Classes and Minorities Welfare Department, Madhya Pradesh",
+    "description": "Financial help for OBC students of Madhya Pradesh studying in post-matric courses.",
+    "benefits": "Reimbursement of tuition fees and maintenance allowance up to ₹750 per month based on the course.",
+    "state": "Madhya Pradesh",
+    "target_groups": [
+      "Student"
+    ],
+    "income_limit": 300000,
+    "age_min": 15,
+    "age_max": 30,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "12th",
+      "Graduate",
+      "Undergraduate",
+      "Postgraduate",
+      "Any"
+    ],
+    "category_restriction": [
+      "OBC"
+    ],
+    "application_link": "https://scholarshipportal.mp.nic.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "MP Domicial Certificate",
+      "OBC Caste Certificate",
+      "Income Certificate",
+      "Marksheet"
+    ],
+    "tags": [
+      "Student",
+      "Scholarship",
+      "OBC",
+      "Madhya Pradesh"
+    ]
+  },
+  {
+    "id": "mp_medhavi_chhatra",
+    "scheme_name": "Mukhyamantri Medhavi Chhatra Yojana (Madhya Pradesh)",
+    "ministry": "Department of Higher Education, Madhya Pradesh",
+    "description": "Covers high higher education costs (Engineering, Medical, Law, PG) for meritorious students of Madhya Pradesh.",
+    "benefits": "Full fee reimbursement (except caution money) for students securing admission in IITs, NITs, NLU, government colleges, or private medical colleges.",
+    "state": "Madhya Pradesh",
+    "target_groups": [
+      "Student"
+    ],
+    "income_limit": 600000,
+    "age_min": 16,
+    "age_max": 28,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://scholarshipportal.mp.nic.in/MedhaviChhatra/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Marksheet of Class XII (min 70% in MP Board or 85% in CBSE)",
+      "MP Domicile",
+      "Income Certificate",
+      "Fee Receipt"
+    ],
+    "tags": [
+      "Student",
+      "Meritorious",
+      "Madhya Pradesh",
+      "Higher Education"
+    ]
+  },
+  {
+    "id": "up_post_matric_scholarship",
+    "scheme_name": "Post Matric Scholarship Uttar Pradesh",
+    "ministry": "Social Welfare Department, Government of Uttar Pradesh",
+    "description": "Financial support to General, OBC, SC, ST, and Minority students in UP for studying in class 11, 12, or higher courses.",
+    "benefits": "Reimbursement of non-refundable fees and a monthly allowance of up to ₹1,200 depending on the course standard.",
+    "state": "Uttar Pradesh",
+    "target_groups": [
+      "Student"
+    ],
+    "income_limit": 200000,
+    "age_min": 15,
+    "age_max": 30,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "12th",
+      "Graduate",
+      "Undergraduate",
+      "Postgraduate",
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://scholarship.up.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "UP Domicile Certificate",
+      "Caste Certificate",
+      "Income Certificate",
+      "College Fee Receipt",
+      "Qualifying Marksheet"
+    ],
+    "tags": [
+      "Student",
+      "Scholarship",
+      "Uttar Pradesh"
+    ]
+  },
+  {
+    "id": "sukanya_samriddhi",
+    "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+    "ministry": "Ministry of Women and Child Development / Finance",
+    "description": "A small deposit scheme for girl child launched under the 'Beti Bachao Beti Padhao' campaign. Aims to meet education and marriage costs.",
+    "benefits": "High interest rate (currently 8.2%), tax deductions under 80C, and maturity amount with tax exemption when the girl turns 21.",
+    "state": "Central",
+    "target_groups": [
+      "Women"
+    ],
+    "income_limit": null,
+    "age_min": 0,
+    "age_max": 10,
+    "gender_restriction": "Female",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.indiapost.gov.in/",
+    "required_documents": [
+      "Birth Certificate of Girl Child",
+      "Aadhaar Card of Parent/Guardian",
+      "Address Proof",
+      "PAN Card of Parent"
+    ],
+    "tags": [
+      "Women",
+      "Savings",
+      "Girl Child"
+    ]
+  },
+  {
+    "id": "pm_matru_vandana",
+    "scheme_name": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+    "ministry": "Ministry of Women and Child Development",
+    "description": "A maternity benefit program offering cash incentives for pregnant and lactating mothers for the first living child.",
+    "benefits": "Direct Cash transfer of ₹5,000 in three installments to compensate for wage loss and promote nutrition intake.",
+    "state": "Central",
+    "target_groups": [
+      "Women",
+      "Low Income Family"
+    ],
+    "income_limit": 800000,
+    "age_min": 19,
+    "age_max": 45,
+    "gender_restriction": "Female",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://pmmvy.nic.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Mother and Child Protection (MCP) Card details",
+      "Pregnancy registration proof",
+      "Bank Passbook"
+    ],
+    "tags": [
+      "Women",
+      "Maternity",
+      "Nutrition"
+    ]
+  },
+  {
+    "id": "free_sewing_machine",
+    "scheme_name": "Free Sewing Machine Scheme (Nishulka Silai Machine Yojana)",
+    "ministry": "Ministry of Labour and Employment",
+    "description": "Assists poor and labor class women with sewing machines to start self-employment from home.",
+    "benefits": "Free mechanical sewing machine or equivalent cash subsidy to buy a high-quality machine.",
+    "state": "Central",
+    "target_groups": [
+      "Women",
+      "Low Income Family"
+    ],
+    "income_limit": 120000,
+    "age_min": 20,
+    "age_max": 40,
+    "gender_restriction": "Female",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.india.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Age Proof",
+      "Medical certificate if handicapped",
+      "Widow Certificate (if applicable)"
+    ],
+    "tags": [
+      "Women",
+      "Employment",
+      "Tailoring"
+    ]
+  },
+  {
+    "id": "mp_ladli_behna",
+    "scheme_name": "Mukhyamantri Ladli Behna Yojana (Madhya Pradesh)",
+    "ministry": "Women and Child Development Department, Madhya Pradesh",
+    "description": "Enhances the economic independence of women, improves their health/nutrition status, and strengthens their decision-making power.",
+    "benefits": "Direct cash transfer of ₹1,250 per month (₹15,000 per year) directly to bank accounts of married women.",
+    "state": "Madhya Pradesh",
+    "target_groups": [
+      "Women"
+    ],
+    "income_limit": 250000,
+    "age_min": 21,
+    "age_max": 60,
+    "gender_restriction": "Female",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://cmladlibahna.mp.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "MP Samagra ID (Family & Personal ID)",
+      "Bank Account (DBT Enabled)",
+      "MP Residence Certificate"
+    ],
+    "tags": [
+      "Women",
+      "Income Support",
+      "Madhya Pradesh"
+    ]
+  },
+  {
+    "id": "mp_ladli_laxmi",
+    "scheme_name": "Ladli Laxmi Yojana 2.0 (Madhya Pradesh)",
+    "ministry": "Women and Child Development Department, Madhya Pradesh",
+    "description": "Improves the educational and economic status of girls and changes the negative attitude towards the birth of a girl child.",
+    "benefits": "National Savings Certificates purchased for the girl. Assured milestones payouts: ₹30,000 for college admission, and overall lump sum of ₹1.43 Lakh on completion of 21 years.",
+    "state": "Madhya Pradesh",
+    "target_groups": [
+      "Women",
+      "Student"
+    ],
+    "income_limit": null,
+    "age_min": 0,
+    "age_max": 18,
+    "gender_restriction": "Female",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://ladlilaxmi.mp.gov.in/",
+    "required_documents": [
+      "Birth Certificate of Girl Child",
+      "Parent's MP Samagra ID",
+      "Aadhaar Card of Parent",
+      "Income tax non-payee declaration"
+    ],
+    "tags": [
+      "Women",
+      "Girl Child",
+      "Education Support",
+      "Madhya Pradesh"
+    ]
+  },
+  {
+    "id": "lakhpati_didi",
+    "scheme_name": "Lakhpati Didi Scheme",
+    "ministry": "Ministry of Rural Development",
+    "description": "Empowers women members of Self-Help Groups (SHGs) to earn a sustainable income of at least ₹1 Lakh per year.",
+    "benefits": "Skill training (LED bulb making, drone operation, agriculture, tailoring), financial assistance, and access to interest-free loans for entrepreneurship.",
+    "state": "Central",
+    "target_groups": [
+      "Women",
+      "Startup"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 60,
+    "gender_restriction": "Female",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://lakhpatididi.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Self Help Group (SHG) membership ID",
+      "Income declaration",
+      "Active Bank Passbook"
+    ],
+    "tags": [
+      "Women",
+      "SHG",
+      "Skill Training",
+      "Livelihood"
+    ]
+  },
+  {
+    "id": "one_stop_centre",
+    "scheme_name": "One Stop Centre Scheme (Sakhi)",
+    "ministry": "Ministry of Women and Child Development",
+    "description": "Provides integrated support and assistance under one roof to women affected by violence, both in private and public spaces.",
+    "benefits": "Emergency medical aid, police assistance, psycho-social counseling, legal aid, and temporary shelter up to 5 days for free.",
+    "state": "Central",
+    "target_groups": [
+      "Women"
+    ],
+    "income_limit": null,
+    "age_min": 0,
+    "age_max": 100,
+    "gender_restriction": "Female",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://wcd.nic.in/",
+    "required_documents": [
+      "None (Immediate assistance without documents)"
+    ],
+    "tags": [
+      "Women",
+      "Safety",
+      "Emergency Support"
+    ]
+  },
+  {
+    "id": "mahila_coir_yojana",
+    "scheme_name": "Mahila Coir Yojana",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises (MSME)",
+    "description": "A women-centric self-employment program in the coir industry, providing training and distribution of coir processing machinery.",
+    "benefits": "75% subsidy on the cost of motorized ratts/machinery and a stipend of ₹3,000 during the two-month training period.",
+    "state": "Central",
+    "target_groups": [
+      "Women",
+      "Job Seeker"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 55,
+    "gender_restriction": "Female",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://coirboard.gov.in/?page_id=233",
+    "required_documents": [
+      "Aadhaar Card",
+      "Coir Board Registration details",
+      "Bank passbook"
+    ],
+    "tags": [
+      "Women",
+      "Coir Industry",
+      "Subsidy"
+    ]
+  },
+  {
+    "id": "working_women_hostel",
+    "scheme_name": "Working Women Hostel Scheme (Sakhi Niwas)",
+    "ministry": "Ministry of Women and Child Development",
+    "description": "Provides safe and affordable accommodation for working women, along with daycare facilities for their children, in urban areas.",
+    "benefits": "Highly subsidized hostel accommodation in safe areas, daycare facilities for children up to 8 years, and standard security.",
+    "state": "Central",
+    "target_groups": [
+      "Women"
+    ],
+    "income_limit": 50000,
+    "age_min": 18,
+    "age_max": 60,
+    "gender_restriction": "Female",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://wcd.nic.in/schemes/working-women-hostel",
+    "required_documents": [
+      "Employment Certificate/Salary slip",
+      "Aadhaar Card",
+      "Relationship proof with children (if using daycare)",
+      "Resident Proof"
+    ],
+    "tags": [
+      "Women",
+      "Hostel",
+      "Working Class"
+    ]
+  },
+  {
+    "id": "swadhar_greh",
+    "scheme_name": "Swadhar Greh Scheme",
+    "ministry": "Ministry of Women and Child Development",
+    "description": "Rehabilitates women in difficult circumstances (widows deserted without support, survivors of disasters, trafficked women).",
+    "benefits": "Free food, clothing, shelter, medical care, and vocational training for social rehabilitation.",
+    "state": "Central",
+    "target_groups": [
+      "Women"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 100,
+    "gender_restriction": "Female",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://wcd.nic.in/schemes/swadhar-greh",
+    "required_documents": [
+      "None (Referral from district magistrate or police is accepted directly)"
+    ],
+    "tags": [
+      "Women",
+      "Rehabilitation",
+      "Shelter"
+    ]
+  },
+  {
+    "id": "mahila_samridhi_yojana",
+    "scheme_name": "Mahila Samridhi Yojana",
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "description": "Micro-finance scheme to provide loans to women entrepreneurs belonging to backward classes to start small retail ventures.",
+    "benefits": "Microloans up to ₹1,40,000 at a very low interest rate of 4% per annum.",
+    "state": "Central",
+    "target_groups": [
+      "Women",
+      "Startup"
+    ],
+    "income_limit": 300000,
+    "age_min": 18,
+    "age_max": 55,
+    "gender_restriction": "Female",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "OBC",
+      "SC",
+      "ST"
+    ],
+    "application_link": "http://www.nbcfdc.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Caste Certificate",
+      "Income Certificate",
+      "Project Plan for business",
+      "Bank Details"
+    ],
+    "tags": [
+      "Women",
+      "Microfinance",
+      "Business Loan"
+    ]
+  },
+  {
+    "id": "stand_up_india_women",
+    "scheme_name": "Stand-Up India Scheme for Women Entrepreneurs",
+    "ministry": "Ministry of Finance",
+    "description": "Promotes entrepreneurship at the grassroots level, focusing specifically on greenfield enterprises set up by women.",
+    "benefits": "Bank loans between ₹10 Lakh and ₹1 Crore covering up to 75% of the project cost for starting a new factory or business.",
+    "state": "Central",
+    "target_groups": [
+      "Women",
+      "Startup"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 70,
+    "gender_restriction": "Female",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.standupmitra.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Business Registration",
+      "Detailed Project Report (DPR)",
+      "Last 3 years bank statements (if existing)",
+      "Property documents"
+    ],
+    "tags": [
+      "Women",
+      "Startup",
+      "Business Loan"
+    ]
+  },
+  {
+    "id": "janani_suraksha",
+    "scheme_name": "Janani Suraksha Yojana (JSY)",
+    "ministry": "Ministry of Health and Family Welfare",
+    "description": "A safe motherhood intervention scheme promoting institutional delivery among poor pregnant women to reduce maternal mortality.",
+    "benefits": "Cash assistance of up to ₹1,400 for mothers in rural areas and ₹1,000 in urban areas upon delivery in a government hospital.",
+    "state": "Central",
+    "target_groups": [
+      "Women",
+      "Low Income Family"
+    ],
+    "income_limit": 150000,
+    "age_min": 19,
+    "age_max": 45,
+    "gender_restriction": "Female",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://nhm.gov.in/index1.php?lang=1&level=3&sublinkid=841&lid=309",
+    "required_documents": [
+      "Aadhaar Card",
+      "BPL card details",
+      "MCP Card",
+      "Delivery Certificate from government hospital",
+      "Bank Account Details"
+    ],
+    "tags": [
+      "Women",
+      "Healthcare",
+      "Maternity Benefit"
+    ]
+  },
+  {
+    "id": "up_kanya_sumangala",
+    "scheme_name": "Mukhya Mantri Kanya Sumangala Yojana (Uttar Pradesh)",
+    "ministry": "Women and Child Development Department, Uttar Pradesh",
+    "description": "Provides conditional cash transfers to girls of Uttar Pradesh from birth up to graduation to support health & education.",
+    "benefits": "₹15,000 paid in 6 stages (Birth, Vaccination, Class 1, Class 6, Class 9, and Admission to Degree/Diploma).",
+    "state": "Uttar Pradesh",
+    "target_groups": [
+      "Women",
+      "Student"
+    ],
+    "income_limit": 300000,
+    "age_min": 0,
+    "age_max": 22,
+    "gender_restriction": "Female",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://mksy.up.gov.in/",
+    "required_documents": [
+      "Aadhaar Card of Parent & Girl",
+      "UP Resident Proof",
+      "Income Certificate",
+      "Affidavit regarding family size (max 2 kids)",
+      "School Marksheet/Certificate"
+    ],
+    "tags": [
+      "Women",
+      "Scholarship",
+      "Uttar Pradesh"
+    ]
+  },
+  {
+    "id": "didi_vehicle_scheme",
+    "scheme_name": "Didi Vehicle Scheme (Madhya Pradesh)",
+    "ministry": "Rural Livelihood Mission, Madhya Pradesh",
+    "description": "Provides vehicle services to rural women for safe institutional delivery and other emergency hospital visits.",
+    "benefits": "Free emergency transport vehicle service managed by women Self Help Groups in rural tribal areas.",
+    "state": "Madhya Pradesh",
+    "target_groups": [
+      "Women",
+      "Low Income Family"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 65,
+    "gender_restriction": "Female",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://mpnrlm.mp.gov.in/",
+    "required_documents": [
+      "Samagra ID",
+      "Aadhaar Card",
+      "Emergency medical certificate/MCP card"
+    ],
+    "tags": [
+      "Women",
+      "Healthcare",
+      "Madhya Pradesh"
+    ]
+  },
+  {
+    "id": "pm_vaya_vandana",
+    "scheme_name": "Pradhan Mantri Vaya Vandana Yojana (PMVVY)",
+    "ministry": "Ministry of Finance / LIC",
+    "description": "A pension scheme exclusively for senior citizens that offers guaranteed interest payouts for financial security.",
+    "benefits": "Guaranteed rate of return of 7.4% per annum paid monthly/quarterly/yearly for 10 years, with loan facility up to 75% of purchase price.",
+    "state": "Central",
+    "target_groups": [
+      "Senior Citizen"
+    ],
+    "income_limit": null,
+    "age_min": 60,
+    "age_max": 100,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.licindia.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Age Proof Certificate",
+      "Bank Details",
+      "Purchase Amount Cheque"
+    ],
+    "tags": [
+      "Senior Citizen",
+      "Pension",
+      "Savings"
+    ]
+  },
+  {
+    "id": "indira_gandhi_old_age_pension",
+    "scheme_name": "Indira Gandhi National Old Age Pension Scheme (IGNOAPS)",
+    "ministry": "Ministry of Rural Development",
+    "description": "Financial assistance to senior citizens belonging to below poverty line (BPL) households.",
+    "benefits": "Monthly pension of ₹200 (age 60-79) and ₹500 per month (age 80 and above). States usually match this amount.",
+    "state": "Central",
+    "target_groups": [
+      "Senior Citizen",
+      "Low Income Family"
+    ],
+    "income_limit": 100000,
+    "age_min": 60,
+    "age_max": 100,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://nsap.nic.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "BPL Card",
+      "Age Proof Certificate",
+      "Bank Account Passbook"
+    ],
+    "tags": [
+      "Senior Citizen",
+      "Pension",
+      "BPL"
+    ]
+  },
+  {
+    "id": "rashtriya_vayoshri",
+    "scheme_name": "Rashtriya Vayoshri Yojana (RVY)",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "description": "Provides physical aids and assisted living devices to senior citizens belonging to BPL categories who suffer from age-related disabilities.",
+    "benefits": "Free high-quality assistive devices like walking sticks, elbow crutches, walkers, hearing aids, wheelchairs, spectacles, and artificial dentures.",
+    "state": "Central",
+    "target_groups": [
+      "Senior Citizen",
+      "Low Income Family"
+    ],
+    "income_limit": 180000,
+    "age_min": 60,
+    "age_max": 100,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.alimco.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "BPL Card / Income Certificate",
+      "Medical certificate showing disability/needs",
+      "Passport size photo"
+    ],
+    "tags": [
+      "Senior Citizen",
+      "Disability Devices",
+      "BPL"
+    ]
+  },
+  {
+    "id": "atal_pension",
+    "scheme_name": "Atal Pension Yojana (APY)",
+    "ministry": "Ministry of Finance / PFRDA",
+    "description": "A pension scheme focused on the unorganized sector workers, allowing them to save for their retirement.",
+    "benefits": "Guaranteed minimum monthly pension of ₹1,000, ₹2,000, ₹3,000, ₹4,000 or ₹5,000 after the age of 60 based on contributions.",
+    "state": "Central",
+    "target_groups": [
+      "Senior Citizen",
+      "Job Seeker"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 40,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.npscra.nsdl.co.in/scheme-details.php",
+    "required_documents": [
+      "Aadhaar Card",
+      "Mobile Number",
+      "Savings Bank Account with auto-debit consent"
+    ],
+    "tags": [
+      "Senior Citizen",
+      "Pension",
+      "Retirement Savings"
+    ]
+  },
+  {
+    "id": "senior_citizen_savings_scheme",
+    "scheme_name": "Senior Citizens Savings Scheme (SCSS)",
+    "ministry": "Ministry of Finance",
+    "description": "A government-backed savings program offering high security and regular interest income to seniors.",
+    "benefits": "High interest rate of 8.2% per annum, quarterly interest payouts, and tax benefits up to ₹1.5 Lakh under Section 80C.",
+    "state": "Central",
+    "target_groups": [
+      "Senior Citizen"
+    ],
+    "income_limit": null,
+    "age_min": 60,
+    "age_max": 100,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.indiapost.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Age Proof (Passport/Birth Cert/Voter ID)",
+      "Two passport size photos"
+    ],
+    "tags": [
+      "Senior Citizen",
+      "Savings",
+      "Tax Benefit"
+    ]
+  },
+  {
+    "id": "varishtha_pension_bima",
+    "scheme_name": "Varishtha Pension Bima Yojana (VPBY)",
+    "ministry": "Ministry of Finance / LIC",
+    "description": "A social security scheme for senior citizens to shield them against a future drop in interest income.",
+    "benefits": "Guaranteed rate of return of 8% per annum for a period of 10 years paid in the form of immediate annuity.",
+    "state": "Central",
+    "target_groups": [
+      "Senior Citizen"
+    ],
+    "income_limit": null,
+    "age_min": 60,
+    "age_max": 100,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.licindia.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Cancelled Cheque",
+      "Age verification proof"
+    ],
+    "tags": [
+      "Senior Citizen",
+      "Pension",
+      "LIC"
+    ]
+  },
+  {
+    "id": "pm_shram_yogi_maandhan",
+    "scheme_name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+    "ministry": "Ministry of Labour and Employment",
+    "description": "A pension scheme for unorganized workers like street vendors, rickshaw pullers, domestic workers, etc.",
+    "benefits": "Assured monthly pension of ₹3,000 after attaining the age of 60 years.",
+    "state": "Central",
+    "target_groups": [
+      "Senior Citizen",
+      "Job Seeker",
+      "Low Income Family"
+    ],
+    "income_limit": 180000,
+    "age_min": 18,
+    "age_max": 40,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://maandhan.in/pm-sym",
+    "required_documents": [
+      "Aadhaar Card",
+      "Savings Bank Account details",
+      "Mobile Number"
+    ],
+    "tags": [
+      "Senior Citizen",
+      "Pension",
+      "Unorganized Sector"
+    ]
+  },
+  {
+    "id": "pm_laghu_vyapari_maandhan",
+    "scheme_name": "Pradhan Mantri Laghu Vyapari Maan-dhan Yojana (PM-LVMY)",
+    "ministry": "Ministry of Labour and Employment",
+    "description": "A pension scheme for self-employed shopkeepers, retail traders, and small businessmen with annual turnover not exceeding ₹1.5 Crore.",
+    "benefits": "Guaranteed monthly pension of ₹3,000 after reaching 60 years of age.",
+    "state": "Central",
+    "target_groups": [
+      "Senior Citizen",
+      "Startup"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 40,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://maandhan.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "GSTIN (if applicable)",
+      "Bank Passbook",
+      "Self-declaration of annual turnover"
+    ],
+    "tags": [
+      "Senior Citizen",
+      "Pension",
+      "Self-Employed"
+    ]
+  },
+  {
+    "id": "national_pension_system",
+    "scheme_name": "National Pension System (NPS) - All Citizen Model",
+    "ministry": "Ministry of Finance / PFRDA",
+    "description": "A voluntary defined contribution pension system designed to enable systematic savings during working life.",
+    "benefits": "Tax savings up to ₹2 Lakh, flexible investment choices (equity, corporate bonds, government securities), and regular pension post-retirement.",
+    "state": "Central",
+    "target_groups": [
+      "Senior Citizen",
+      "Job Seeker",
+      "Startup"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 70,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.enps.nsdl.com/",
+    "required_documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Bank Account Details",
+      "Scanned Signature & Photo"
+    ],
+    "tags": [
+      "Senior Citizen",
+      "Retirement",
+      "NPS"
+    ]
+  },
+  {
+    "id": "national_social_assistance_program",
+    "scheme_name": "National Social Assistance Program (NSAP)",
+    "ministry": "Ministry of Rural Development",
+    "description": "A social security umbrella containing pension schemes for senior citizens, widows, and disabled persons.",
+    "benefits": "Direct financial aid ranging from ₹200 to ₹1,000 per month depending on beneficiary type.",
+    "state": "Central",
+    "target_groups": [
+      "Senior Citizen",
+      "Low Income Family"
+    ],
+    "income_limit": 120000,
+    "age_min": 60,
+    "age_max": 100,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://nsap.nic.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "BPL/Income certificate",
+      "Age certificate",
+      "Bank Details"
+    ],
+    "tags": [
+      "Senior Citizen",
+      "Social Security",
+      "BPL"
+    ]
+  },
+  {
+    "id": "elderline_national_helpline",
+    "scheme_name": "Elderline - National Helpline for Senior Citizens (14567)",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "description": "A toll-free helpline providing information, guidance, emotional support, and rescue services for elders.",
+    "benefits": "Free toll-free assistance for abuse prevention, health guidance, legal info, and shelter rescue support.",
+    "state": "Central",
+    "target_groups": [
+      "Senior Citizen"
+    ],
+    "income_limit": null,
+    "age_min": 60,
+    "age_max": 100,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://socialjustice.gov.in/",
+    "required_documents": [
+      "None"
+    ],
+    "tags": [
+      "Senior Citizen",
+      "Helpline",
+      "Emergency Response"
+    ]
+  },
+  {
+    "id": "venerable_pension_yojana",
+    "scheme_name": "Venerable Pension Scheme (Madhya Pradesh)",
+    "ministry": "Social Justice and Disabled Welfare Department, MP",
+    "description": "Pension for destitute senior citizens of Madhya Pradesh who do not qualify for other central schemes.",
+    "benefits": "Monthly pension of ₹600 directly transferred to bank accounts.",
+    "state": "Madhya Pradesh",
+    "target_groups": [
+      "Senior Citizen",
+      "Low Income Family"
+    ],
+    "income_limit": 100000,
+    "age_min": 60,
+    "age_max": 100,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "http://socialjustice.mp.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "MP Resident Proof",
+      "Income Certificate / BPL Card",
+      "Samagra ID"
+    ],
+    "tags": [
+      "Senior Citizen",
+      "Pension",
+      "Madhya Pradesh"
+    ]
+  },
+  {
+    "id": "varistha_citizen_health_insurance",
+    "scheme_name": "Varistha Mediclaim Policy for Senior Citizens",
+    "ministry": "National Insurance Company",
+    "description": "A government-backed health insurance policy explicitly designed to cater to the medical needs of elderly people.",
+    "benefits": "Health cover up to ₹2 Lakh for hospitalization and ₹10,000 for critical illness with tax benefits on premium.",
+    "state": "Central",
+    "target_groups": [
+      "Senior Citizen"
+    ],
+    "income_limit": null,
+    "age_min": 60,
+    "age_max": 80,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://nationalinsurance.nic.co.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Medical check-up reports (if aged over 65)",
+      "PAN Card",
+      "Age Proof"
+    ],
+    "tags": [
+      "Senior Citizen",
+      "Health Insurance",
+      "Medical"
+    ]
+  },
+  {
+    "id": "senior_citizen_welfare_fund",
+    "scheme_name": "Senior Citizens Welfare Fund",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "description": "Utilizes unclaimed money in PPF, EPF, and small savings schemes to fund welfare programs for senior citizens.",
+    "benefits": "Funds are used to provide health care schemes, old age homes, nutrition centers, and safety equipment in communities.",
+    "state": "Central",
+    "target_groups": [
+      "Senior Citizen"
+    ],
+    "income_limit": null,
+    "age_min": 60,
+    "age_max": 100,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://socialjustice.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Age Proof",
+      "Application of need to local social welfare officer"
+    ],
+    "tags": [
+      "Senior Citizen",
+      "Welfare",
+      "Grants"
+    ]
+  },
+  {
+    "id": "pension_scheme_for_retired_artists",
+    "scheme_name": "Pension Scheme for Retired Artists",
+    "ministry": "Ministry of Culture",
+    "description": "Financial support to veteran artists who have contributed significantly in their field but are in indigent circumstances.",
+    "benefits": "Monthly pension of up to ₹6,000 to artists after reaching the age of 60.",
+    "state": "Central",
+    "target_groups": [
+      "Senior Citizen",
+      "Low Income Family"
+    ],
+    "income_limit": 72000,
+    "age_min": 60,
+    "age_max": 100,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://indiaculture.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Evidence of contribution to art (awards, brochures, news clippings)",
+      "Bank details"
+    ],
+    "tags": [
+      "Senior Citizen",
+      "Artist Pension",
+      "Culture"
+    ]
+  },
+  {
+    "id": "pm_mudra_shishu",
+    "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY) - Shishu Loan",
+    "ministry": "Ministry of Finance / SIDBI",
+    "description": "Provides loans to micro-enterprises and startups to start business activities with zero collateral.",
+    "benefits": "Collateral-free business loans up to ₹50,000 with nominal processing fees and flexible repayment schedules.",
+    "state": "Central",
+    "target_groups": [
+      "Startup",
+      "Low Income Family",
+      "Women"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 65,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.mudra.org.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Address Proof of Business",
+      "Machinery Quotations / Business Idea Draft",
+      "2 Passport Photos"
+    ],
+    "tags": [
+      "Startup",
+      "Micro Loan",
+      "Collateral-Free"
+    ]
+  },
+  {
+    "id": "pm_mudra_kishor_tarun",
+    "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY) - Kishor & Tarun Loans",
+    "ministry": "Ministry of Finance",
+    "description": "Funding for established small businesses looking to expand their operations.",
+    "benefits": "Loans from ₹50,000 to ₹5 Lakh (Kishor) and ₹5 Lakh to ₹10 Lakh (Tarun) without collateral.",
+    "state": "Central",
+    "target_groups": [
+      "Startup"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 65,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.mudra.org.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Business Registration Certificate",
+      "Last 12 months bank statements",
+      "Tax returns (if applicable)"
+    ],
+    "tags": [
+      "Startup",
+      "Business Loan",
+      "Expansion"
+    ]
+  },
+  {
+    "id": "startup_india_seed_fund",
+    "scheme_name": "Startup India Seed Fund Scheme (SISFS)",
+    "ministry": "Department for Promotion of Industry and Internal Trade (DPIIT)",
+    "description": "Provides financial assistance to early-stage startups for proof of concept, prototype development, product trials, and market entry.",
+    "benefits": "Grants up to ₹20 Lakh for validation of proof of concept/prototype, and up to ₹50 Lakh via debt/convertible debentures for market entry.",
+    "state": "Central",
+    "target_groups": [
+      "Startup"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 60,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Graduate",
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://seedfund.startupindia.gov.in/",
+    "required_documents": [
+      "DPIIT Recognition Certificate",
+      "Detailed Business Plan",
+      "Proof of Concept / Prototype Details",
+      "Co-founders details & PAN"
+    ],
+    "tags": [
+      "Startup",
+      "Seed Funding",
+      "Innovation"
+    ]
+  },
+  {
+    "id": "pm_employment_generation",
+    "scheme_name": "Prime Minister's Employment Generation Programme (PMEGP)",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises (MSME)",
+    "description": "Credit-linked subsidy scheme for generating self-employment opportunities through establishment of micro-enterprises.",
+    "benefits": "Subsidy of 15% to 35% on project costs up to ₹50 Lakh for manufacturing and ₹20 Lakh for service sectors. Rest funded by banks.",
+    "state": "Central",
+    "target_groups": [
+      "Startup",
+      "Job Seeker"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 65,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "8th",
+      "10th",
+      "12th",
+      "Graduate",
+      "Undergraduate",
+      "Postgraduate",
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.kviconline.gov.in/pmegpeportal/pmegphome/index.jsp",
+    "required_documents": [
+      "Aadhaar Card",
+      "Project Report",
+      "Education Certificate (8th pass minimum for projects >₹10L)",
+      "Caste Certificate (for higher subsidy)"
+    ],
+    "tags": [
+      "Startup",
+      "Self-Employment",
+      "Subsidy"
+    ]
+  },
+  {
+    "id": "standup_india_sc_st",
+    "scheme_name": "Stand-Up India Scheme (SC/ST Entrepreneurs)",
+    "ministry": "Ministry of Finance",
+    "description": "Facilitates bank loans for starting greenfield enterprises in manufacturing, services, agri-allied, or trading sectors.",
+    "benefits": "Loans between ₹10 Lakh and ₹1 Crore for setting up new businesses, covering up to 75% of the project cost.",
+    "state": "Central",
+    "target_groups": [
+      "Startup"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 75,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "SC",
+      "ST"
+    ],
+    "application_link": "https://www.standupmitra.in/",
+    "required_documents": [
+      "Caste Certificate",
+      "Aadhaar Card",
+      "Project Report",
+      "Income details",
+      "Bank details"
+    ],
+    "tags": [
+      "Startup",
+      "SC/ST Support",
+      "Business Loan"
+    ]
+  },
+  {
+    "id": "cgtmse_scheme",
+    "scheme_name": "Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE)",
+    "ministry": "Ministry of MSME / SIDBI",
+    "description": "Provides credit guarantees to financial institutions to facilitate collateral-free loans for MSMEs.",
+    "benefits": "Collateral-free credit up to ₹5 Crore (guarantee cover up to 85% of the loan amount provided by CGTMSE).",
+    "state": "Central",
+    "target_groups": [
+      "Startup"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 70,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.cgtmse.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "MSME Registration (Udyam)",
+      "Business Plan",
+      "Financial audit statements"
+    ],
+    "tags": [
+      "Startup",
+      "Collateral-Free",
+      "Credit Guarantee"
+    ]
+  },
+  {
+    "id": "aspire_msme",
+    "scheme_name": "ASPIRE (Scheme for Promotion of Innovation, Rural Industries and Entrepreneurship)",
+    "ministry": "Ministry of MSME",
+    "description": "Sets up Livelihood Business Incubators (LBI) and Technology Business Incubators (TBI) to foster rural entrepreneurship.",
+    "benefits": "Financial support up to ₹1 Crore for setting up government incubators, and up to ₹4 Lakh per startup as incubation grants.",
+    "state": "Central",
+    "target_groups": [
+      "Startup"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 60,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Graduate",
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://aspire.msme.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Incubation Proof",
+      "Innovative Project Proposal",
+      "Udyam Registration"
+    ],
+    "tags": [
+      "Startup",
+      "Rural Development",
+      "Incubation"
+    ]
+  },
+  {
+    "id": "samridh_it_startup",
+    "scheme_name": "SAMRIDH Scheme (Startup Accelerator of MeitY)",
+    "ministry": "Ministry of Electronics and Information Technology (MeitY)",
+    "description": "Accelerates software product startups in India with funding, mentorship, and international scale support.",
+    "benefits": "Co-investment matching funding up to ₹40 Lakh per startup, plus access to top accelerators and demo days.",
+    "state": "Central",
+    "target_groups": [
+      "Startup"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 50,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Graduate",
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.meitystartuphub.in/",
+    "required_documents": [
+      "DPIIT Registration",
+      "Software Product Prototype Details",
+      "Current Revenue Statements / Pitch Deck",
+      "Incorporation Cert"
+    ],
+    "tags": [
+      "Startup",
+      "Software",
+      "Accelerator"
+    ]
+  },
+  {
+    "id": "venture_capital_fund_sc",
+    "scheme_name": "Venture Capital Fund for Scheduled Castes (VCF-SC)",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "description": "A first-of-its-kind venture fund in India to promote entrepreneurship among Scheduled Castes who want to scale technology businesses.",
+    "benefits": "Concessional finance up to ₹15 Crore (equity/debt funding) at low interest rates.",
+    "state": "Central",
+    "target_groups": [
+      "Startup"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 60,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "SC"
+    ],
+    "application_link": "https://vcfsc.in/",
+    "required_documents": [
+      "SC Caste Certificate of promoters (must hold at least 51% stake)",
+      "Business Incorporation Certificate",
+      "Financial statements",
+      "Project Report"
+    ],
+    "tags": [
+      "Startup",
+      "SC Support",
+      "Venture Capital"
+    ]
+  },
+  {
+    "id": "clcss_msme",
+    "scheme_name": "Credit Linked Capital Subsidy Scheme (CLCSS)",
+    "ministry": "Ministry of MSME",
+    "description": "Facilitates technology up-gradation of micro and small enterprises in specified sub-sectors.",
+    "benefits": "15% capital subsidy (up to ₹15 Lakh) on institutional finance availed for induction of well-established technologies.",
+    "state": "Central",
+    "target_groups": [
+      "Startup"
+    ],
+    "income_limit": null,
+    "age_min": 21,
+    "age_max": 65,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://msme.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Udyam Registration",
+      "Loan sanction letter for machinery",
+      "Bill of Machinery purchased"
+    ],
+    "tags": [
+      "Startup",
+      "Technology Upgrade",
+      "Subsidy"
+    ]
+  },
+  {
+    "id": "msme_idea_hackathon",
+    "scheme_name": "MSME Idea Hackathon",
+    "ministry": "Ministry of MSME",
+    "description": "Encourages and supports creative ideas and innovative mindsets in the MSME sector.",
+    "benefits": "Financial assistance up to ₹15 Lakh per approved idea to develop prototype, and support for commercialization.",
+    "state": "Central",
+    "target_groups": [
+      "Startup",
+      "Student"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 45,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Graduate",
+      "Undergraduate",
+      "Postgraduate",
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://innovative.msme.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Detailed Idea Pitch deck",
+      "Student / MSME registration proof",
+      "PAN Card"
+    ],
+    "tags": [
+      "Startup",
+      "Hackathon",
+      "Grants"
+    ]
+  },
+  {
+    "id": "mp_mukhyamantri_udyami",
+    "scheme_name": "Mukhyamantri Udyam Kranti Yojana (Madhya Pradesh)",
+    "ministry": "Department of MSME, Madhya Pradesh",
+    "description": "Assists young citizens of Madhya Pradesh in setting up self-employment ventures by providing interest subsidies on loans.",
+    "benefits": "Collateral-free loans up to ₹50 Lakh (manufacturing) and ₹10 Lakh (service). 3% per annum interest subsidy and full credit guarantee fees paid by state government.",
+    "state": "Madhya Pradesh",
+    "target_groups": [
+      "Startup",
+      "Job Seeker"
+    ],
+    "income_limit": 1200000,
+    "age_min": 18,
+    "age_max": 45,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "12th",
+      "Graduate",
+      "Undergraduate",
+      "Postgraduate",
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://samast.mponline.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "MP Resident Certificate",
+      "12th marksheet",
+      "Income certificate",
+      "Project Report",
+      "Pan Card"
+    ],
+    "tags": [
+      "Startup",
+      "Madhya Pradesh",
+      "Interest Subsidy"
+    ]
+  },
+  {
+    "id": "mp_mukhyamantri_swarojgar",
+    "scheme_name": "Mukhyamantri Swarojgar Yojana (Madhya Pradesh)",
+    "ministry": "Department of MSME, Madhya Pradesh",
+    "description": "Provides financial assistance for setting up new industries or service businesses in Madhya Pradesh.",
+    "benefits": "15% to 30% margin money subsidy on loans up to ₹50,000 to ₹10 Lakh depending on category.",
+    "state": "Madhya Pradesh",
+    "target_groups": [
+      "Startup",
+      "Low Income Family"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 45,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "8th",
+      "10th",
+      "12th",
+      "Graduate",
+      "Undergraduate",
+      "Postgraduate",
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://samast.mponline.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "5th/8th pass marksheet",
+      "MP Resident Proof",
+      "Caste Certificate (for extra subsidy)",
+      "Project Outline"
+    ],
+    "tags": [
+      "Startup",
+      "Self Employment",
+      "Madhya Pradesh"
+    ]
+  },
+  {
+    "id": "up_one_district_one_product",
+    "scheme_name": "ODOP (One District One Product) Margin Money Scheme (UP)",
+    "ministry": "Department of MSME and Export Promotion, Uttar Pradesh",
+    "description": "Financial assistance for setting up micro-units related to district-specific products in Uttar Pradesh.",
+    "benefits": "Margin money subsidy of up to 25% of project cost (max ₹20 Lakh) on business loans for ODOP manufacturing.",
+    "state": "Uttar Pradesh",
+    "target_groups": [
+      "Startup",
+      "Job Seeker"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 50,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "8th",
+      "10th",
+      "12th",
+      "Graduate",
+      "Undergraduate",
+      "Postgraduate",
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "http://odopup.in/",
+    "required_documents": [
+      "UP Domicile Certificate",
+      "Project Report of ODOP product unit",
+      "Aadhaar Card",
+      "Bank loan application copy"
+    ],
+    "tags": [
+      "Startup",
+      "ODOP",
+      "Uttar Pradesh",
+      "Subsidy"
+    ]
+  },
+  {
+    "id": "standup_india_refinance",
+    "scheme_name": "Stand-Up India - SIDBI Refinance Scheme",
+    "ministry": "SIDBI",
+    "description": "Refinancing facility to banks extending credit under Stand-Up India to keep loan rates low.",
+    "benefits": "Enables banks to offer Stand-up loans at the lowest possible base rates (MCLR + 3% maximum).",
+    "state": "Central",
+    "target_groups": [
+      "Startup"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 75,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.sidbi.in/",
+    "required_documents": [
+      "Sanction Letter of Standup India Loan",
+      "Aadhaar Card",
+      "PAN Card"
+    ],
+    "tags": [
+      "Startup",
+      "Refinance",
+      "SIDBI"
+    ]
+  },
+  {
+    "id": "pm_kaushal_vikas",
+    "scheme_name": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY 4.0)",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "description": "Skill certification scheme aiming to enable a large number of Indian youth to take up industry-relevant skill training.",
+    "benefits": "Free skill training, assessment, and certification in tech, agriculture, manufacturing. Includes soft skills training and job placement placement assistance.",
+    "state": "Central",
+    "target_groups": [
+      "Job Seeker"
+    ],
+    "income_limit": null,
+    "age_min": 15,
+    "age_max": 45,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.pmkvyofficial.org/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Education Qualification marksheets (if any)",
+      "Bank Account details",
+      "2 Passport Photos"
+    ],
+    "tags": [
+      "Job Seeker",
+      "Skill Development",
+      "Placement"
+    ]
+  },
+  {
+    "id": "national_apprenticeship",
+    "scheme_name": "National Apprenticeship Promotion Scheme (NAPS)",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "description": "Promotes apprenticeship training and increases engagement of apprentices in industries.",
+    "benefits": "Sharing of 25% of prescribed stipend subject to a max of ₹1,500 per month per apprentice, paid directly to candidates during training.",
+    "state": "Central",
+    "target_groups": [
+      "Job Seeker",
+      "Student"
+    ],
+    "income_limit": null,
+    "age_min": 16,
+    "age_max": 35,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "8th",
+      "10th",
+      "12th",
+      "Graduate",
+      "Undergraduate",
+      "Postgraduate",
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.apprenticeshipindia.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Marksheet of highest education",
+      "Bank Account Passbook",
+      "Resume / Profile details"
+    ],
+    "tags": [
+      "Job Seeker",
+      "Apprenticeship",
+      "Stipend"
+    ]
+  },
+  {
+    "id": "pm_daksh",
+    "scheme_name": "Pradhan Mantri Dakshta Aur Kushalta Sampann Hitgrahi (PM-DAKSH) Scheme",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "description": "Provides free skill training programs for SC, OBC, EBC, and Safai Karamcharis to enhance their employment capacity.",
+    "benefits": "Free skill training (Short term, Up-skilling, Entrepreneurship) with a stipend of up to ₹1,500 per month and full job placement assistance.",
+    "state": "Central",
+    "target_groups": [
+      "Job Seeker"
+    ],
+    "income_limit": 300000,
+    "age_min": 18,
+    "age_max": 45,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "SC",
+      "OBC"
+    ],
+    "application_link": "https://pmdaksh.dosje.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Caste Certificate",
+      "Income Certificate (for OBC/EBC)",
+      "Education Certificate"
+    ],
+    "tags": [
+      "Job Seeker",
+      "Skill Training",
+      "SC/OBC Support"
+    ]
+  },
+  {
+    "id": "deendayal_upadhyaya_gky",
+    "scheme_name": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY)",
+    "ministry": "Ministry of Rural Development",
+    "description": "A rural youth placement-linked skill training program to diversify income of rural poor families.",
+    "benefits": "Free residential/non-residential skill training, free books, uniform, tablet, and guaranteed placement in companies with standard wages.",
+    "state": "Central",
+    "target_groups": [
+      "Job Seeker",
+      "Low Income Family"
+    ],
+    "income_limit": 150000,
+    "age_min": 15,
+    "age_max": 35,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "http://ddugky.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "BPL card / EWS Certificate",
+      "Age Proof Certificate",
+      "Bank Account Details"
+    ],
+    "tags": [
+      "Job Seeker",
+      "Rural Support",
+      "Placement-Linked"
+    ]
+  },
+  {
+    "id": "national_career_service",
+    "scheme_name": "National Career Service (NCS) Portal",
+    "ministry": "Ministry of Labour and Employment",
+    "description": "A digital portal connecting job seekers with employers, offering counseling, vocational guidance, and job fair info.",
+    "benefits": "Free job search, free career assessment tests, details of job fairs, and direct application to private & government vacancies.",
+    "state": "Central",
+    "target_groups": [
+      "Job Seeker"
+    ],
+    "income_limit": null,
+    "age_min": 14,
+    "age_max": 60,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.ncs.gov.in/",
+    "required_documents": [
+      "Aadhaar Card / ID card",
+      "Mobile Number",
+      "Educational Certificates details"
+    ],
+    "tags": [
+      "Job Seeker",
+      "Job Portal",
+      "Career Guidance"
+    ]
+  },
+  {
+    "id": "atmanirbhar_bharat_rozgar",
+    "scheme_name": "Atmanirbhar Bharat Rozgar Yojana (ABRY)",
+    "ministry": "Ministry of Labour and Employment / EPFO",
+    "description": "Incentivizes employers for creation of new employment and social security benefits during Covid recovery.",
+    "benefits": "Government pays both employee (12%) and employer (12%) share of EPF contribution (total 24%) for 2 years for new employees earning <₹15,000/month.",
+    "state": "Central",
+    "target_groups": [
+      "Job Seeker"
+    ],
+    "income_limit": 180000,
+    "age_min": 18,
+    "age_max": 58,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.epfindia.gov.in/",
+    "required_documents": [
+      "Aadhaar Card linked with UAN (Universal Account Number)",
+      "Bank Account Details",
+      "Joining Letter"
+    ],
+    "tags": [
+      "Job Seeker",
+      "EPF",
+      "Employment Subsidy"
+    ]
+  },
+  {
+    "id": "mp_seekho_kamao",
+    "scheme_name": "Mukhyamantri Seekho-Kamao Yojana (Madhya Pradesh)",
+    "ministry": "Department of Technical Education, Skill Development & Employment, MP",
+    "description": "On-the-job training scheme for youth of Madhya Pradesh. Connects them to companies where they can learn skills and earn.",
+    "benefits": "Monthly stipend of ₹8,000 (12th pass), ₹8,500 (ITI pass), ₹9,000 (Diploma pass), and ₹10,000 (Graduate/PG pass) during training.",
+    "state": "Madhya Pradesh",
+    "target_groups": [
+      "Job Seeker",
+      "Student"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 29,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "12th",
+      "Graduate",
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://mmsky.mp.gov.in/",
+    "required_documents": [
+      "MP Resident Certificate",
+      "Marksheet of Class 12/ITI/Diploma/Degree",
+      "Aadhaar Card",
+      "MP Samagra ID",
+      "Bank passbook"
+    ],
+    "tags": [
+      "Job Seeker",
+      "Stipend",
+      "Madhya Pradesh"
+    ]
+  },
+  {
+    "id": "mp_rojgar_portal",
+    "scheme_name": "MP Rojgar Portal Registration",
+    "ministry": "Madhya Pradesh Rojgar Nirman Board",
+    "description": "Official employment exchange portal in Madhya Pradesh to link job seekers with local corporate jobs and job fairs.",
+    "benefits": "Free job alerts, access to government job notifications in MP, free training camp info, and job fair registration.",
+    "state": "Madhya Pradesh",
+    "target_groups": [
+      "Job Seeker"
+    ],
+    "income_limit": null,
+    "age_min": 15,
+    "age_max": 45,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://mproygar.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Samagra ID",
+      "MP Resident Certificate",
+      "Highest education marksheet"
+    ],
+    "tags": [
+      "Job Seeker",
+      "Job Exchange",
+      "Madhya Pradesh"
+    ]
+  },
+  {
+    "id": "up_rojgar_sangam",
+    "scheme_name": "Rojgar Sangam Yojana (Uttar Pradesh)",
+    "ministry": "Sewa Yojana Department, Uttar Pradesh",
+    "description": "Digital platform of UP Government connecting unemployed youth to job vacancies, skills, and private jobs.",
+    "benefits": "Unemployment allowance of ₹1,000 to ₹1,500 per month for registered unemployed graduates (varies with budget), plus job fair listings.",
+    "state": "Uttar Pradesh",
+    "target_groups": [
+      "Job Seeker"
+    ],
+    "income_limit": 200000,
+    "age_min": 18,
+    "age_max": 35,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "12th",
+      "Graduate",
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://sewayojan.up.nic.in/",
+    "required_documents": [
+      "UP Resident Certificate",
+      "Unemployment declaration",
+      "Aadhaar Card",
+      "Highest Marksheet",
+      "Income Certificate"
+    ],
+    "tags": [
+      "Job Seeker",
+      "Uttar Pradesh",
+      "Allowance"
+    ]
+  },
+  {
+    "id": "pm_vishwakarma",
+    "scheme_name": "PM Vishwakarma Yojana",
+    "ministry": "Ministry of MSME",
+    "description": "Provides support to artisans and craftspeople (carpenters, blacksmiths, potters, weavers) working with hands/tools.",
+    "benefits": "Skill upgrading training with ₹500/day stipend, ₹15,000 toolkit digital voucher, and collateral-free enterprise loans up to ₹3 Lakh at 5% interest.",
+    "state": "Central",
+    "target_groups": [
+      "Job Seeker",
+      "Low Income Family",
+      "Farmer"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 65,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://pmvishwakarma.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Voter ID Card",
+      "Proof of traditional trade occupation",
+      "Bank Details"
+    ],
+    "tags": [
+      "Job Seeker",
+      "Artisan",
+      "Subsidy"
+    ]
+  },
+  {
+    "id": "ayushman_bharat",
+    "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (PM-JAY)",
+    "ministry": "Ministry of Health and Family Welfare",
+    "description": "The largest health assurance scheme in the world, providing cashless secondary and tertiary healthcare hospitalization.",
+    "benefits": "Cashless health cover up to ₹5 Lakh per family per year for secondary and tertiary care hospitalization in empaneled hospitals.",
+    "state": "Central",
+    "target_groups": [
+      "Low Income Family"
+    ],
+    "income_limit": 250000,
+    "age_min": 0,
+    "age_max": 100,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://pmjay.gov.in/",
+    "required_documents": [
+      "Aadhaar Card / Ration Card",
+      "Ayushman Golden Card (issued at CSC)",
+      "Income / BPL Proof"
+    ],
+    "tags": [
+      "Low Income Family",
+      "Healthcare",
+      "Insurance"
+    ]
+  },
+  {
+    "id": "pm_awas_gramin",
+    "scheme_name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+    "ministry": "Ministry of Rural Development",
+    "description": "Aims to provide a pucca house with basic amenities to all homeless householders and those living in dilapidated houses in rural areas.",
+    "benefits": "Financial assistance of ₹1.2 Lakh (plain areas) and ₹1.3 Lakh (hilly areas) for building houses, plus toilet construction assistance.",
+    "state": "Central",
+    "target_groups": [
+      "Low Income Family"
+    ],
+    "income_limit": 150000,
+    "age_min": 18,
+    "age_max": 75,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://pmayg.nic.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Ration Card / BPL list ID",
+      "Bank Details",
+      "Job Card details (MGNREGA)",
+      "Land Details"
+    ],
+    "tags": [
+      "Low Income Family",
+      "Housing",
+      "Rural Development"
+    ]
+  },
+  {
+    "id": "pm_awas_urban",
+    "scheme_name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "description": "Addresses urban housing shortage among EWS/LIG and MIG categories, including slum dwellers, by ensuring a pucca house.",
+    "benefits": "Interest subsidy up to 6.5% on housing loans up to ₹6 Lakh for EWS, and direct grants of ₹1.5 Lakh for house construction.",
+    "state": "Central",
+    "target_groups": [
+      "Low Income Family"
+    ],
+    "income_limit": 300000,
+    "age_min": 18,
+    "age_max": 70,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://pmaymis.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate / Salary Certificate",
+      "Land/Old House details",
+      "PAN Card",
+      "Bank passbook"
+    ],
+    "tags": [
+      "Low Income Family",
+      "Housing",
+      "Urban development"
+    ]
+  },
+  {
+    "id": "pm_garib_kalyan_anna",
+    "scheme_name": "Pradhan Mantri Garib Kalyan Anna Yojana (PMGKAY)",
+    "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+    "description": "Food security welfare scheme providing free food grains to the poorest citizens through Public Distribution System (PDS).",
+    "benefits": "5 kg of foodgrains (wheat or rice) per person per month absolutely free of cost to all NFSA (National Food Security Act) beneficiaries.",
+    "state": "Central",
+    "target_groups": [
+      "Low Income Family"
+    ],
+    "income_limit": 100000,
+    "age_min": 0,
+    "age_max": 100,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://dfpd.gov.in/pmgkay.htm",
+    "required_documents": [
+      "Ration Card (NFSA / Antyodaya Anna Yojana)",
+      "Aadhaar Card linked with ration card"
+    ],
+    "tags": [
+      "Low Income Family",
+      "Ration",
+      "Free Food"
+    ]
+  },
+  {
+    "id": "pm_ujjwala",
+    "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY) 2.0",
+    "ministry": "Ministry of Petroleum and Natural Gas",
+    "description": "Provides clean cooking fuel (LPG connections) to women from BPL households to replace unhealthy wood stoves.",
+    "benefits": "Free LPG connection (including stove, cylinder, regulator) with an ongoing subsidy of ₹300 per cylinder refills (up to 12 refills/year).",
+    "state": "Central",
+    "target_groups": [
+      "Low Income Family",
+      "Women"
+    ],
+    "income_limit": 150000,
+    "age_min": 18,
+    "age_max": 80,
+    "gender_restriction": "Female",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.pmuy.gov.in/",
+    "required_documents": [
+      "Aadhaar Card of Applicant",
+      "Ration Card showing BPL list",
+      "Bank Details",
+      "KYC details",
+      "Affidavit of no LPG link"
+    ],
+    "tags": [
+      "Low Income Family",
+      "LPG Connection",
+      "Subsidy"
+    ]
+  },
+  {
+    "id": "pm_svanidhi",
+    "scheme_name": "Pradhan Mantri Street Vendor’s AtmaNirbhar Nidhi (PM SVANidhi)",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "description": "A micro-credit scheme to provide affordable working capital loans to street vendors to resume their livelihoods post-pandemic.",
+    "benefits": "First loan up to ₹10,000 interest-subsidized (7% rebate). Upon timely repayment, eligibility for second loan up to ₹20,000 and third loan up to ₹50,000.",
+    "state": "Central",
+    "target_groups": [
+      "Low Income Family",
+      "Startup"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 65,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://pmsvanidhi.mohua.gov.in/",
+    "required_documents": [
+      "Aadhaar Card / Voter ID",
+      "Certificate of Vending (CoV) / Vendor ID Card",
+      "Bank Account Details"
+    ],
+    "tags": [
+      "Low Income Family",
+      "Street Vendor",
+      "Micro Loan"
+    ]
+  },
+  {
+    "id": "deendayal_antyodaya_nrlm",
+    "scheme_name": "Deen Dayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY-NRLM)",
+    "ministry": "Ministry of Rural Development",
+    "description": "Aims to reduce rural poverty by promoting self-employment and organization of rural poor women into Self-Help Groups (SHGs).",
+    "benefits": "Revolving fund of ₹15,000 and Community Investment Fund (CIF) of ₹1.10 Lakh per SHG to start small production and micro-enterprise units.",
+    "state": "Central",
+    "target_groups": [
+      "Low Income Family",
+      "Women"
+    ],
+    "income_limit": 150000,
+    "age_min": 18,
+    "age_max": 60,
+    "gender_restriction": "Female",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://aajeevika.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Ration Card (BPL)",
+      "SHG registration profile",
+      "Group Bank Passbook"
+    ],
+    "tags": [
+      "Low Income Family",
+      "SHG",
+      "Rural Development"
+    ]
+  },
+  {
+    "id": "pm_jandhan_yojana",
+    "scheme_name": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+    "ministry": "Ministry of Finance",
+    "description": "National Mission for Financial Inclusion to ensure access to financial services, namely Savings Bank accounts, remittance, credit, insurance, pension.",
+    "benefits": "Zero-balance savings account, free RuPay debit card with ₹2 Lakh accident insurance cover, and overdraft facility up to ₹10,000 for families.",
+    "state": "Central",
+    "target_groups": [
+      "Low Income Family"
+    ],
+    "income_limit": null,
+    "age_min": 10,
+    "age_max": 100,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://www.pmjdy.gov.in/",
+    "required_documents": [
+      "Aadhaar Card (or Voter ID / Driving License / NREGA card)"
+    ],
+    "tags": [
+      "Low Income Family",
+      "Bank Account",
+      "Financial Inclusion"
+    ]
+  },
+  {
+    "id": "pm_jeevan_jyoti_bima",
+    "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+    "ministry": "Ministry of Finance",
+    "description": "A one-year life insurance scheme, renewable from year to year, offering life insurance cover for death due to any reason.",
+    "benefits": "Life insurance cover of ₹2 Lakh on death of the insured due to any reason, at a very low premium of ₹436 per annum.",
+    "state": "Central",
+    "target_groups": [
+      "Low Income Family",
+      "Job Seeker"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 50,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://jansuraksha.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Consent form for auto-debit from savings bank account"
+    ],
+    "tags": [
+      "Low Income Family",
+      "Life Insurance",
+      "Social Security"
+    ]
+  },
+  {
+    "id": "pm_suraksha_bima",
+    "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+    "ministry": "Ministry of Finance",
+    "description": "An accident insurance scheme offering protection against death or disability due to an accident.",
+    "benefits": "Accidental death and full disability cover of ₹2 Lakh, and partial disability cover of ₹1 Lakh, at a premium of ₹20 per annum.",
+    "state": "Central",
+    "target_groups": [
+      "Low Income Family"
+    ],
+    "income_limit": null,
+    "age_min": 18,
+    "age_max": 70,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://jansuraksha.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Consent for bank auto-debit of premium"
+    ],
+    "tags": [
+      "Low Income Family",
+      "Accident Insurance",
+      "Social Security"
+    ]
+  },
+  {
+    "id": "swachh_bharat_toilet_grant",
+    "scheme_name": "Swachh Bharat Mission (SBM) - Individual Household Latrine (IHHL) Grant",
+    "ministry": "Ministry of Jal Shakti / Ministry of Housing & Urban",
+    "description": "Provides financial aid to rural and urban families to construct individual household toilets to end open defecation.",
+    "benefits": "Direct cash incentive of ₹12,000 to eligible households for constructing an individual sanitary toilet.",
+    "state": "Central",
+    "target_groups": [
+      "Low Income Family"
+    ],
+    "income_limit": 180000,
+    "age_min": 18,
+    "age_max": 90,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://sbmurban.org/ / https://swachhbharatmission.ddws.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Bank Account Details",
+      "Photograph of the site/house before construction"
+    ],
+    "tags": [
+      "Low Income Family",
+      "Toilet Subsidy",
+      "Sanitation"
+    ]
+  },
+  {
+    "id": "rashtriya_swasthya_bima",
+    "scheme_name": "National Health Insurance (State Schemes)",
+    "ministry": "Ministry of Health and Family Welfare",
+    "description": "Subsidized health insurance policy for unorganized sector workers and BPL cardholders in various states.",
+    "benefits": "Cover up to ₹30,000 - ₹50,000 for family of five for common hospitalization charges.",
+    "state": "Central",
+    "target_groups": [
+      "Low Income Family"
+    ],
+    "income_limit": 120000,
+    "age_min": 18,
+    "age_max": 65,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://main.mohfw.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "Ration Card (BPL)",
+      "Income declaration",
+      "Bank details"
+    ],
+    "tags": [
+      "Low Income Family",
+      "Health",
+      "Social Support"
+    ]
+  },
+  {
+    "id": "mp_ration_eligibility_parchi",
+    "scheme_name": "Ration Eligibility Parchi (Madhya Pradesh)",
+    "ministry": "Food, Civil Supplies and Consumer Protection Department, MP",
+    "description": "Gives MP families access to highly subsidized grains (wheat, rice, salt, kerosene) via fair price shops.",
+    "benefits": "Wheat at ₹1/kg, Rice at ₹1/kg, and Salt at ₹1/kg under the National Food Security Act in MP.",
+    "state": "Madhya Pradesh",
+    "target_groups": [
+      "Low Income Family"
+    ],
+    "income_limit": 120000,
+    "age_min": 0,
+    "age_max": 100,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "http://www.rationmitra.nic.in/",
+    "required_documents": [
+      "MP Samagra ID (Family ID)",
+      "Aadhaar Cards of all family members",
+      "BPL card / income status card"
+    ],
+    "tags": [
+      "Low Income Family",
+      "Ration Card",
+      "Madhya Pradesh"
+    ]
+  },
+  {
+    "id": "mp_ayushman_swasthya",
+    "scheme_name": "Ayushman Madhya Pradesh Scheme",
+    "ministry": "State Health Agency, Government of Madhya Pradesh",
+    "description": "State integrated program linking PM-JAY and State welfare boards to provide health cards to MP residents.",
+    "benefits": "Cashless treatment up to ₹5 Lakh/year in government and empaneled private hospitals for all MP Samagra BPL families.",
+    "state": "Madhya Pradesh",
+    "target_groups": [
+      "Low Income Family"
+    ],
+    "income_limit": 250000,
+    "age_min": 0,
+    "age_max": 100,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://saara.mp.gov.in/",
+    "required_documents": [
+      "Aadhaar Card",
+      "MP Samagra Family ID",
+      "BPL Card / Sambal Card"
+    ],
+    "tags": [
+      "Low Income Family",
+      "Healthcare",
+      "Madhya Pradesh"
+    ]
+  },
+  {
+    "id": "up_ration_card_nfsa",
+    "scheme_name": "UP Ration Card Scheme (NFSA)",
+    "ministry": "Food and Civil Supplies Department, Uttar Pradesh",
+    "description": "Provides subsidized ration (rice, wheat, sugar) to eligible families in Uttar Pradesh under Antyodaya and Patra Grihasti categories.",
+    "benefits": "Wheat at ₹2/kg and Rice at ₹3/kg (and free grain distributions during special drives) at all UP government ration depots.",
+    "state": "Uttar Pradesh",
+    "target_groups": [
+      "Low Income Family"
+    ],
+    "income_limit": 200000,
+    "age_min": 0,
+    "age_max": 100,
+    "gender_restriction": "None",
+    "education_restriction": [
+      "Any"
+    ],
+    "category_restriction": [
+      "Any"
+    ],
+    "application_link": "https://fcs.up.gov.in/",
+    "required_documents": [
+      "UP Resident Certificate",
+      "Aadhaar Card of all members",
+      "Income Certificate",
+      "Passport size photograph of Head of Family (Female preferred)"
+    ],
+    "tags": [
+      "Low Income Family",
+      "Ration Card",
+      "Uttar Pradesh"
+    ]
+  }
+]

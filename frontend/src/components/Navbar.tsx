@@ -1,5 +1,5 @@
-import React from 'react'
-import { Sun, Moon, Globe, RefreshCw, Layers, MessageSquare, ShieldCheck, Home } from 'lucide-react'
+import React, { useState } from 'react'
+import { Sun, Moon, Globe, RefreshCw, Layers, MessageSquare, ShieldCheck, Home, Menu, X } from 'lucide-react'
 import { Page, Language } from '../App'
 
 interface NavbarProps {
@@ -23,6 +23,7 @@ const Navbar: React.FC<NavbarProps> = ({
   hasProfile,
   onClearProfile
 }) => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const t = {
     en: {
       brand: "SchemeAI",
@@ -140,21 +141,64 @@ const Navbar: React.FC<NavbarProps> = ({
 
           {/* Hamburger (Mobile navigation) */}
           <div className="md:hidden flex items-center">
-            {/* Quick dropdown menu */}
-            <select
-              value={page}
-              onChange={(e) => setPage(e.target.value as Page)}
-              className="px-2 py-1.5 rounded-lg border bg-white dark:bg-slate-900 text-sm font-medium border-slate-200 dark:border-slate-800"
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="p-2 rounded-xl border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-600 dark:text-slate-300 transition"
+              title="Toggle Menu"
             >
-              <option value="landing">{t.home}</option>
-              <option value={hasProfile ? "dashboard" : "discovery"}>{hasProfile ? t.dashboard : t.discovery}</option>
-              <option value="chat">{t.chat}</option>
-              <option value="analyzer">{t.analyzer}</option>
-            </select>
+              {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            </button>
           </div>
         </div>
 
       </div>
+
+      {/* Mobile Menu Overlay */}
+      {mobileMenuOpen && (
+        <div className="md:hidden border-t border-slate-200/50 dark:border-slate-800/50 bg-white/95 dark:bg-slate-950/95 backdrop-blur-lg px-4 py-4 space-y-2 animate-slide-down shadow-lg">
+          <button 
+            onClick={() => { setPage('landing'); setMobileMenuOpen(false); }}
+            className={`w-full text-left px-4 py-2.5 rounded-xl text-sm font-bold transition flex items-center gap-2 ${page === 'landing' ? 'bg-brand-primary/10 text-brand-primary dark:bg-brand-primary/20' : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'}`}
+          >
+            <Home className="w-4 h-4" />
+            {t.home}
+          </button>
+          
+          <button 
+            onClick={() => { setPage(hasProfile ? 'dashboard' : 'discovery'); setMobileMenuOpen(false); }}
+            className={`w-full text-left px-4 py-2.5 rounded-xl text-sm font-bold transition flex items-center gap-2 ${page === 'discovery' || page === 'dashboard' ? 'bg-brand-primary/10 text-brand-primary dark:bg-brand-primary/20' : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'}`}
+          >
+            <Layers className="w-4 h-4" />
+            {hasProfile ? t.dashboard : t.discovery}
+          </button>
+          
+          <button 
+            onClick={() => { setPage('chat'); setMobileMenuOpen(false); }}
+            className={`w-full text-left px-4 py-2.5 rounded-xl text-sm font-bold transition flex items-center gap-2 ${page === 'chat' ? 'bg-brand-primary/10 text-brand-primary dark:bg-brand-primary/20' : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'}`}
+          >
+            <MessageSquare className="w-4 h-4" />
+            {t.chat}
+          </button>
+          
+          <button 
+            onClick={() => { setPage('analyzer'); setMobileMenuOpen(false); }}
+            className={`w-full text-left px-4 py-2.5 rounded-xl text-sm font-bold transition flex items-center gap-2 ${page === 'analyzer' ? 'bg-brand-primary/10 text-brand-primary dark:bg-brand-primary/20' : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'}`}
+          >
+            <ShieldCheck className="w-4 h-4" />
+            {t.analyzer}
+          </button>
+
+          {hasProfile && (
+            <button
+              onClick={() => { onClearProfile(); setMobileMenuOpen(false); }}
+              className="w-full text-left px-4 py-2.5 rounded-xl text-sm font-bold text-red-500 hover:bg-red-50 dark:hover:bg-red-950/20 transition flex items-center gap-2"
+            >
+              <RefreshCw className="w-4 h-4" />
+              {t.reset}
+            </button>
+          )}
+        </div>
+      )}
     </header>
   )
 }

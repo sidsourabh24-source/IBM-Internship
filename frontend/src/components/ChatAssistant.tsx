@@ -292,13 +292,13 @@ const ChatAssistant: React.FC<ChatAssistantProps> = ({ profile, lang, apiUrl }) 
 
         {/* Suggestion Chips */}
         {suggestions.length > 0 && (
-          <div className="px-6 py-3 border-t border-slate-200/30 dark:border-slate-800/30 flex flex-wrap gap-2">
+          <div className="px-6 py-3 border-t border-slate-200/30 dark:border-slate-800/30 flex gap-2 overflow-x-auto no-scrollbar scroll-smooth">
             {suggestions.map((s) => (
               <button
                 key={s}
                 onClick={() => handleSendMessage(s)}
                 disabled={loading}
-                className="text-xs font-bold py-1.5 px-3 rounded-full bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 border border-slate-200/30 dark:border-slate-700/30 text-slate-600 dark:text-slate-300 transition shrink-0"
+                className="text-xs font-bold py-1.5 px-3 rounded-full bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 border border-slate-200/30 dark:border-slate-700/30 text-slate-600 dark:text-slate-300 transition shrink-0 whitespace-nowrap"
               >
                 {s}
               </button>

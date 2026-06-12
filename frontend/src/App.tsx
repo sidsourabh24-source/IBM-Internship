@@ -53,6 +53,7 @@ function App() {
     return saved ? JSON.parse(saved) : null
   })
   const [results, setResults] = useState<SchemeEligibilityResult[]>([])
+  const [prefilledProfile, setPrefilledProfile] = useState<Partial<UserProfile> | null>(null)
   const [selectedScheme, setSelectedScheme] = useState<Scheme | null>(null)
   const [lang, setLang] = useState<Language>(() => {
     return (localStorage.getItem('schemeai_lang') as Language) || 'en'
@@ -62,8 +63,10 @@ function App() {
       (!('schemeai_dark' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
   })
   
-  // Base API URL (pointing to your live Render backend)
-  const API_BASE_URL = 'https://ibm-internship-oyrd.onrender.com'
+  // Dynamic API URL: points to local backend on localhost, and to live Render backend otherwise
+  const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+    ? 'http://127.0.0.1:8000'
+    : 'https://ibm-internship-oyrd.onrender.com'
 
   // Sync theme
   useEffect(() => {
@@ -92,8 +95,22 @@ function App() {
   const handleClearProfile = () => {
     setProfile(null)
     setResults([])
+    setPrefilledProfile(null)
     localStorage.removeItem('schemeai_profile')
     setPage('landing')
+  }
+
+  // prefills profile details depending on user selection on landing page
+  const handleSelectCategory = (tag: string) => {
+    let prefill: Partial<UserProfile> = {}
+    if (tag === 'Student') prefill = { occupation: 'Student' }
+    else if (tag === 'Farmer') prefill = { occupation: 'Farmer' }
+    else if (tag === 'Senior Citizen') prefill = { occupation: 'Senior Citizen', age: 65 }
+    else if (tag === 'Startup') prefill = { occupation: 'Startup / Entrepreneur' }
+    else if (tag === 'Women') prefill = { gender: 'Female' }
+    
+    setPrefilledProfile(prefill)
+    setPage('discovery')
   }
 
   return (
@@ -121,6 +138,7 @@ function App() {
             setPage={setPage} 
             lang={lang} 
             hasProfile={!!profile} 
+            onSelectCategory={handleSelectCategory}
           />
         )}
         
@@ -130,6 +148,7 @@ function App() {
             lang={lang}
             initialProfile={profile}
             apiUrl={API_BASE_URL}
+            prefilledProfile={prefilledProfile}
           />
         )}
         

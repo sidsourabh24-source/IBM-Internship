@@ -85,16 +85,37 @@ def check_eligibility(profile: UserProfile, scheme_data: Dict[str, Any]) -> Tupl
     
     # If the user's occupation matches one of the scheme's target groups, it is highly relevant
     occupation_matches = False
-    for tg in target_groups:
-        if tg in user_occ or user_occ in tg:
-            occupation_matches = True
-            break
-            
+    
+    if not target_groups or "any" in target_groups or "all" in target_groups:
+        occupation_matches = True
+    else:
+        for tg in target_groups:
+            # Direct match
+            if tg in user_occ or user_occ in tg:
+                occupation_matches = True
+                break
+            # Smart mapping: gender-based target groups
+            if (tg == "women" or tg == "female") and profile.gender.lower() == "female":
+                occupation_matches = True
+                break
+            # Smart mapping: age-based target groups (Senior Citizens)
+            if (tg == "senior citizen" or tg == "old age") and profile.age >= 60:
+                occupation_matches = True
+                break
+            # Smart mapping: student-based groups
+            if tg == "student" and user_occ in ["student", "job seeker"]:
+                occupation_matches = True
+                break
+            if user_occ == "student" and tg in ["student", "graduate", "undergraduate", "postgraduate"]:
+                occupation_matches = True
+                break
+            # Smart mapping: low income groups
+            if (tg == "low income family" or tg == "bpl" or tg == "poor") and user_occ == "low income family":
+                occupation_matches = True
+                break
+
     if not occupation_matches:
-        # If user is a Student but the scheme is purely for Senior Citizens / Farmers
-        score -= 40
-        if score < 40:
-            return "Not Eligible", 0
+        return "Not Eligible", 0
 
     # Determine status based on final score
     if score >= 90:

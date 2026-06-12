@@ -6,9 +6,10 @@ interface LandingPageProps {
   setPage: (page: Page) => void
   lang: Language
   hasProfile: boolean
+  onSelectCategory: (tag: string) => void
 }
 
-const LandingPage: React.FC<LandingPageProps> = ({ setPage, lang, hasProfile }) => {
+const LandingPage: React.FC<LandingPageProps> = ({ setPage, lang, hasProfile, onSelectCategory }) => {
   const t = {
     en: {
       heroTitle: "Unlock Your Eligible Government Schemes with AI",
@@ -81,7 +82,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ setPage, lang, hasProfile }) 
   ]
 
   const handleCategoryClick = (tag: string) => {
-    // Navigate to discovery, seed default occupation if needed
+    onSelectCategory(tag)
     setPage('discovery')
   }
 

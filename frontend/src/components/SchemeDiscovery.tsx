@@ -8,21 +8,22 @@ interface SchemeDiscoveryProps {
   lang: 'en' | 'hi'
   initialProfile: UserProfile | null
   apiUrl: string
+  prefilledProfile?: Partial<UserProfile> | null
 }
 
-const SchemeDiscovery: React.FC<SchemeDiscoveryProps> = ({ onSubmit, lang, initialProfile, apiUrl }) => {
+const SchemeDiscovery: React.FC<SchemeDiscoveryProps> = ({ onSubmit, lang, initialProfile, apiUrl, prefilledProfile }) => {
   const [step, setStep] = useState(1)
   const [loading, setLoading] = useState(false)
   const [loadingStatus, setLoadingStatus] = useState("")
   const [error, setError] = useState<string | null>(null)
   
-  const [age, setAge] = useState<number>(initialProfile?.age || 21)
-  const [gender, setGender] = useState<string>(initialProfile?.gender || "Female")
-  const [state, setState] = useState<string>(initialProfile?.state || "Madhya Pradesh")
-  const [occupation, setOccupation] = useState<string>(initialProfile?.occupation || "Student")
-  const [income, setIncome] = useState<number>(initialProfile?.income || 150000)
-  const [category, setCategory] = useState<string>(initialProfile?.category || "OBC")
-  const [education, setEducation] = useState<string>(initialProfile?.education || "Undergraduate")
+  const [age, setAge] = useState<number>(prefilledProfile?.age || initialProfile?.age || 21)
+  const [gender, setGender] = useState<string>(prefilledProfile?.gender || initialProfile?.gender || "Female")
+  const [state, setState] = useState<string>(prefilledProfile?.state || initialProfile?.state || "Madhya Pradesh")
+  const [occupation, setOccupation] = useState<string>(prefilledProfile?.occupation || initialProfile?.occupation || "Student")
+  const [income, setIncome] = useState<number>(prefilledProfile?.income || initialProfile?.income || 150000)
+  const [category, setCategory] = useState<string>(prefilledProfile?.category || initialProfile?.category || "OBC")
+  const [education, setEducation] = useState<string>(prefilledProfile?.education || initialProfile?.education || "Undergraduate")
 
   const t = {
     en: {
@@ -247,10 +248,44 @@ const SchemeDiscovery: React.FC<SchemeDiscoveryProps> = ({ onSubmit, lang, initi
           
           // Occupation match
           const target_groups = scheme.target_groups.map((tg: string) => tg.toLowerCase())
-          const matches_occ = target_groups.some((tg: string) => tg.includes(profileData.occupation.toLowerCase()) || profileData.occupation.toLowerCase().includes(tg))
+          let matches_occ = false
+          if (target_groups.length === 0 || target_groups.includes("any") || target_groups.includes("all")) {
+            matches_occ = true
+          } else {
+            const user_occ = profileData.occupation.toLowerCase()
+            const user_gender = profileData.gender.toLowerCase()
+            const user_age = profileData.age
+            
+            for (const tg of target_groups) {
+              if (tg.includes(user_occ) || user_occ.includes(tg)) {
+                matches_occ = true
+                break
+              }
+              if ((tg === "women" || tg === "female") && user_gender === "female") {
+                matches_occ = true
+                break
+              }
+              if ((tg === "senior citizen" || tg === "old age") && user_age >= 60) {
+                matches_occ = true
+                break
+              }
+              if (tg === "student" && (user_occ === "student" || user_occ === "job seeker")) {
+                matches_occ = true
+                break
+              }
+              if (user_occ === "student" && ["student", "graduate", "undergraduate", "postgraduate"].includes(tg)) {
+                matches_occ = true
+                break
+              }
+              if ((tg === "low income family" || tg === "bpl" || tg === "poor") && user_occ === "low income family") {
+                matches_occ = true
+                break
+              }
+            }
+          }
           
           if (!matches_occ) {
-            score -= 40
+            return { scheme, status: 'Not Eligible', score: 0, documents_checklist: scheme.required_documents }
           }
 
           let status: 'Eligible' | 'Partially Eligible' | 'Not Eligible' = 'Eligible'
@@ -352,7 +387,7 @@ const SchemeDiscovery: React.FC<SchemeDiscoveryProps> = ({ onSubmit, lang, initi
                   <label className="block text-sm font-semibold text-slate-700 dark:text-slate-300 mb-3">
                     {t.genderLabel}
                   </label>
-                  <div className="grid grid-cols-3 gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                     {["Female", "Male", "None"].map((g) => (
                       <button
                         key={g}
@@ -417,7 +452,7 @@ const SchemeDiscovery: React.FC<SchemeDiscoveryProps> = ({ onSubmit, lang, initi
                   <label className="block text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">
                     {t.categoryLabel}
                   </label>
-                  <div className="grid grid-cols-5 gap-2">
+                  <div className="grid grid-cols-3 sm:grid-cols-5 gap-2">
                     {categories.map((c) => (
                       <button
                         key={c}
